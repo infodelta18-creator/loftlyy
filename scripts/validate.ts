@@ -14,6 +14,7 @@ const ROOT = process.cwd()
 const PUBLIC = join(ROOT, "public")
 const MESSAGES_DIR = join(ROOT, "messages")
 const HEX_RE = /^#[0-9A-Fa-f]{6}$/
+const externalAssetBaseUrl = process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim()
 
 let errors: string[] = []
 let warnings: string[] = []
@@ -31,9 +32,13 @@ function ok(msg: string) {
   console.log(`  ✓ ${msg}`)
 }
 
+function assetPath(path: string) {
+  return join(PUBLIC, path.replace(/^\/+/, ""))
+}
+
 async function loadBrands() {
-  const { getAllBrands } = await import("../data/brands/index.js")
-  return getAllBrands()
+  const { getRawBrands } = await import("../data/brands/index.js")
+  return getRawBrands()
 }
 
 async function loadCategories() {
@@ -155,6 +160,14 @@ async function checkAssetFiles() {
   // biome-ignore lint: using console for CLI script
   console.log("\n🔍 Asset files on disk")
 
+  if (externalAssetBaseUrl) {
+    warn(
+      `Skipping local asset file checks because NEXT_PUBLIC_ASSET_BASE_URL is set to ${externalAssetBaseUrl}`
+    )
+    ok("Asset file checks skipped")
+    return
+  }
+
   const brands = await loadBrands()
   let checked = 0
   let missing = 0
@@ -163,7 +176,7 @@ async function checkAssetFiles() {
     const prefix = `[${brand.slug}]`
 
     // Thumbnail
-    const thumbPath = join(PUBLIC, brand.thumbnail.src)
+    const thumbPath = assetPath(brand.thumbnail.src)
     if (!existsSync(thumbPath)) {
       error(`${prefix} Thumbnail missing: ${brand.thumbnail.src}`)
       missing++
@@ -172,7 +185,7 @@ async function checkAssetFiles() {
 
     // ThumbnailDark
     if (brand.thumbnailDark) {
-      const darkPath = join(PUBLIC, brand.thumbnailDark.src)
+      const darkPath = assetPath(brand.thumbnailDark.src)
       if (!existsSync(darkPath)) {
         error(`${prefix} ThumbnailDark missing: ${brand.thumbnailDark.src}`)
         missing++
@@ -182,8 +195,8 @@ async function checkAssetFiles() {
 
     // All assets
     for (const asset of brand.assets) {
-      const assetPath = join(PUBLIC, asset.src)
-      if (!existsSync(assetPath)) {
+      const currentAssetPath = assetPath(asset.src)
+      if (!existsSync(currentAssetPath)) {
         error(`${prefix} Asset missing: ${asset.src}`)
         missing++
       }
@@ -207,6 +220,14 @@ async function checkFontFiles() {
   // biome-ignore lint: using console for CLI script
   console.log("\n🔍 Font files")
 
+  if (externalAssetBaseUrl) {
+    warn(
+      `Skipping local font file checks because NEXT_PUBLIC_ASSET_BASE_URL is set to ${externalAssetBaseUrl}`
+    )
+    ok("Font file checks skipped")
+    return
+  }
+
   const brands = await loadBrands()
   let checked = 0
   let missing = 0
@@ -220,7 +241,7 @@ async function checkFontFiles() {
         continue
       }
 
-      const fontPath = join(PUBLIC, typo.fontUrl)
+      const fontPath = assetPath(typo.fontUrl)
       if (!existsSync(fontPath)) {
         error(`${prefix} Font missing: ${typo.fontUrl}`)
         missing++
@@ -249,6 +270,14 @@ async function checkFontFiles() {
 async function checkBrandDirectories() {
   // biome-ignore lint: using console for CLI script
   console.log("\n🔍 Brand directories")
+
+  if (externalAssetBaseUrl) {
+    warn(
+      `Skipping local brand directory checks because NEXT_PUBLIC_ASSET_BASE_URL is set to ${externalAssetBaseUrl}`
+    )
+    ok("Brand directories skipped")
+    return
+  }
 
   const brands = await loadBrands()
 
@@ -354,6 +383,14 @@ async function checkSvgQuality() {
   // biome-ignore lint: using console for CLI script
   console.log("\n🔍 SVG quality")
 
+  if (externalAssetBaseUrl) {
+    warn(
+      `Skipping local SVG validation because NEXT_PUBLIC_ASSET_BASE_URL is set to ${externalAssetBaseUrl}`
+    )
+    ok("SVG validation skipped")
+    return
+  }
+
   const brands = await loadBrands()
   let checked = 0
 
@@ -363,7 +400,7 @@ async function checkSvgQuality() {
     for (const asset of brand.assets) {
       if (asset.format !== "svg") continue
 
-      const svgPath = join(PUBLIC, asset.src)
+      const svgPath = assetPath(asset.src)
       if (!existsSync(svgPath)) continue
 
       const content = await readFile(svgPath, "utf-8")

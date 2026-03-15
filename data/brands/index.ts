@@ -1,4 +1,5 @@
 import type { Brand } from "@/lib/types"
+import { assetUrl } from "@/lib/assets"
 import { airbnb } from "./airbnb"
 import { amazon } from "./amazon"
 import { anthropic } from "./anthropic"
@@ -23,7 +24,7 @@ import { tesla } from "./tesla"
 import { wise } from "./wise"
 import { x } from "./x"
 
-export const brands: Brand[] = [
+const rawBrands: Brand[] = [
   airbnb,
   amazon,
   anthropic,
@@ -49,8 +50,41 @@ export const brands: Brand[] = [
   x,
 ].sort((a, b) => a.name.localeCompare(b.name))
 
+function withAssetUrls(brand: Brand): Brand {
+  return {
+    ...brand,
+    typography: brand.typography.map((font) => ({
+      ...font,
+      fontUrl: font.fontUrl ? assetUrl(font.fontUrl) : undefined,
+    })),
+    assets: brand.assets.map((asset) => ({
+      ...asset,
+      src: assetUrl(asset.src),
+      srcFull: asset.srcFull ? assetUrl(asset.srcFull) : undefined,
+    })),
+    thumbnail: {
+      ...brand.thumbnail,
+      src: assetUrl(brand.thumbnail.src),
+      srcFull: brand.thumbnail.srcFull
+        ? assetUrl(brand.thumbnail.srcFull)
+        : undefined,
+    },
+    thumbnailDark: brand.thumbnailDark
+      ? {
+          ...brand.thumbnailDark,
+          src: assetUrl(brand.thumbnailDark.src),
+          srcFull: brand.thumbnailDark.srcFull
+            ? assetUrl(brand.thumbnailDark.srcFull)
+            : undefined,
+        }
+      : undefined,
+  }
+}
+
+export const brands: Brand[] = rawBrands.map(withAssetUrls)
+
 export const brandsBySlug: Record<string, Brand> = Object.fromEntries(
-  brands.map((b) => [b.slug, b])
+  brands.map((brand) => [brand.slug, brand])
 )
 
 export function getAllBrands() {
@@ -63,4 +97,8 @@ export function getBrandBySlug(slug: string) {
 
 export function getBrandsByCategory(categorySlug: string) {
   return brands.filter((b) => b.categories.includes(categorySlug))
+}
+
+export function getRawBrands() {
+  return rawBrands
 }

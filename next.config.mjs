@@ -1,11 +1,27 @@
 import createNextIntlPlugin from "next-intl/plugin"
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts")
+const defaultAssetBaseUrl = "https://loftlyy.preetsutharxd.workers.dev"
+const assetBaseUrl =
+  process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? defaultAssetBaseUrl
+const remotePatterns = []
+
+if (assetBaseUrl) {
+  const { protocol, hostname, port, pathname } = new URL(assetBaseUrl)
+
+  remotePatterns.push({
+    protocol: protocol.replace(":", ""),
+    hostname,
+    port,
+    pathname: `${pathname.replace(/\/$/, "") || ""}/**`,
+  })
+}
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     unoptimized: true,
+    remotePatterns,
   },
   async redirects() {
     return [
