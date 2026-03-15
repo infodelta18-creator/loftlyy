@@ -8,13 +8,7 @@ export const shopify: Brand = {
   url: "https://shopify.com",
   industry: "e-commerce",
   categories: ["e-commerce", "saas", "technology"],
-  tags: [
-    "e-commerce",
-    "payments",
-    "retail",
-    "developer-tools",
-    "platform",
-  ],
+  tags: ["e-commerce", "payments", "retail", "developer-tools", "platform"],
   colors: [
     {
       name: "Shopify Green",

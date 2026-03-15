@@ -25,8 +25,7 @@ export const adobe: Brand = {
     {
       name: "White",
       hex: "#FFFFFF",
-      usage:
-        "Used for backgrounds, text on dark surfaces, and clean layouts.",
+      usage: "Used for backgrounds, text on dark surfaces, and clean layouts.",
     },
     {
       name: "Dark Gray",
