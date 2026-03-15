@@ -6,13 +6,57 @@ import { IconCopy, IconCheck } from "@tabler/icons-react"
 import type { BrandColor } from "@/lib/types"
 
 export function BrandColors({ colors }: { colors: BrandColor[] }) {
+  const [paletteCopied, setPaletteCopied] = useState(false)
   const t = useTranslations("brand")
+  const paletteTimerRef = useRef<ReturnType<typeof setTimeout>>(null)
+
+  useEffect(
+    () => () => {
+      if (paletteTimerRef.current) clearTimeout(paletteTimerRef.current)
+    },
+    []
+  )
+
+  async function copyPalette() {
+    const json = JSON.stringify(
+      colors.map((c) => ({
+        name: c.name,
+        hex: c.hex,
+        ...(c.usage && { usage: c.usage }),
+      })),
+      null,
+      2
+    )
+    await navigator.clipboard.writeText(json)
+    setPaletteCopied(true)
+    if (paletteTimerRef.current) clearTimeout(paletteTimerRef.current)
+    paletteTimerRef.current = setTimeout(() => setPaletteCopied(false), 1500)
+  }
 
   return (
     <section className="flex flex-col gap-3">
-      <h2 className="text-[13px] font-bold tracking-wide text-neutral-500 uppercase dark:text-neutral-400">
-        {t("colors")}
-      </h2>
+      <div className="flex items-center justify-between">
+        <h2 className="text-[13px] font-bold tracking-wide text-neutral-500 uppercase dark:text-neutral-400">
+          {t("colors")}
+        </h2>
+        <button
+          onClick={copyPalette}
+          aria-label={t("copyPaletteJson")}
+          className="flex items-center gap-1.5 rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1.5 text-[12px] font-medium text-neutral-700 transition-colors hover:border-neutral-300 hover:bg-neutral-100 focus-visible:ring-2 focus-visible:ring-ring dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-700"
+        >
+          {paletteCopied ? (
+            <>
+              <IconCheck className="h-3 w-3 text-green-600" />
+              <span>{t("copied")}</span>
+            </>
+          ) : (
+            <>
+              <IconCopy className="h-3 w-3" />
+              <span>{t("copyPaletteJson")}</span>
+            </>
+          )}
+        </button>
+      </div>
 
       <div className="flex flex-col divide-y divide-neutral-100 dark:divide-neutral-800">
         {colors.map((color, index) => (
@@ -56,7 +100,7 @@ function ColorRow({ color }: { color: BrandColor }) {
           {color.name}
         </span>
         {color.usage && (
-          <p className="truncate text-[11.5px] text-neutral-400 dark:text-neutral-400">
+          <p className="truncate text-xs text-neutral-400 dark:text-neutral-400">
             {color.usage}
           </p>
         )}
@@ -66,7 +110,7 @@ function ColorRow({ color }: { color: BrandColor }) {
       <button
         onClick={copyHex}
         aria-label={t("copyHex")}
-        className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-md px-2 font-mono text-[11.5px] text-neutral-500 transition-colors hover:bg-neutral-100 focus-visible:ring-2 focus-visible:ring-ring dark:text-neutral-400 dark:hover:bg-neutral-800"
+        className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-md px-2 font-mono text-xs text-neutral-500 transition-colors hover:bg-neutral-100 focus-visible:ring-2 focus-visible:ring-ring dark:text-neutral-400 dark:hover:bg-neutral-800"
       >
         {copied ? (
           <>
