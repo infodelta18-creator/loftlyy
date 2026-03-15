@@ -129,6 +129,10 @@
       "description": "Anthropic est une entreprise de securite en IA axee sur la construction de systemes d'IA fiables, interpretables et controlables. Fondee par d'anciens chercheurs d'OpenAI, elle developpe Claude, un assistant IA concu avec la securite au coeur.",
       "philosophy": "Chaleureuse, digne de confiance et judicieusement sobre. L'identite d'Anthropic associe une palette de tons terre a une typographie epuree pour communiquer une recherche en IA axee sur la securite — accessible mais serieuse, humaine mais technique."
     },
+    "canva": {
+      "description": "Canva est une plateforme de design et de publication en ligne qui permet a tous de concevoir n'importe quoi et de publier partout. Fondee en 2013 a Sydney, en Australie, Canva est devenue l'un des outils de design les plus populaires au monde, rendant le design graphique professionnel accessible a des millions de personnes.",
+      "philosophy": "L'identite de Canva melange des degrades ludiques de turquoise et de violet avec un logotype manuscrit distinctif pour incarner sa mission de democratisation du design. Les formes organiques et fluides refletent creativite et accessibilite, tandis que le degrade vibrant signale innovation et joie."
+    },
     "apple": {
       "description": "Apple concoit, fabrique et commercialise des produits electroniques grand public, des logiciels et des services. Du Macintosh a l'iPhone, Apple a constamment redefini des categories entieres de produits par son obsession du design, de la simplicite et de l'experience utilisateur.",
       "philosophy": "La simplicite est la sophistication supreme. L'identite monochromatique d'Apple elimine tout le superflu, laissant la pomme croquee iconique parler avec une confiance tranquille — symbole d'innovation, de qualite premium et de design centre sur l'humain."
@@ -136,6 +140,10 @@
     "wise": {
       "description": "Wise est une entreprise mondiale de technologie financiere qui rend les transferts d'argent internationaux rapides, peu couteux et transparents. Anciennement connue sous le nom de TransferWise, elle sert des millions de clients qui transferent de l'argent a travers les frontieres avec des taux de change reels.",
       "philosophy": "Transparente, audacieuse et sans frontieres. L'identite de Wise utilise un vert distinctif et un motif de drapeau pour symboliser le mouvement de l'argent a travers les frontieres — un design direct pour une entreprise qui croit que les services financiers doivent etre justes et simples."
+    },
+    "whatsapp": {
+      "description": "WhatsApp est une plateforme de messagerie mondialement omniprésente qui permet la communication par texte, voix et vidéo sur tous les appareils. Propriété de Meta, elle sert plus de deux milliards d'utilisateurs dans le monde avec une messagerie chiffrée de bout en bout, en faisant l'un des outils de communication les plus utilisés au monde.",
+      "philosophy": "Simple, fiable et privée. L'identité de WhatsApp est centrée sur l'accessibilité et la confiance — une bulle de dialogue verte et épurée symbolisant une communication directe et sécurisée sans barrières."
     },
     "figma": {
       "description": "Figma est un outil de conception d'interfaces collaboratif qui permet aux equipes de concevoir, prototyper et developper des produits ensemble en temps reel. Acquis par Adobe en 2023, Figma est devenu la reference pour la conception UI/UX.",
@@ -220,6 +228,30 @@
     "tiktok": {
       "description": "TikTok est la principale plateforme mondiale de vidéos courtes, où plus d'un milliard d'utilisateurs créent, découvrent et partagent du contenu divertissant. Lancée à l'international en 2017 par ByteDance, TikTok a redéfini les réseaux sociaux avec son flux algorithmique et ses outils créatifs pour la musique, la comédie, l'éducation et la culture.",
       "philosophy": "Énergique, jeune et indéniablement numérique. L'identité de TikTok associe un symbole de note musicale audacieux à un effet de décalage cyan et rouge inspiré du glitch, créant une sensation de mouvement et de créativité qui reflète le flux infini de contenu court."
+    },
+    "twitch": {
+      "description": "Twitch est la première plateforme mondiale de diffusion en direct pour les joueurs, les créateurs et les communautés. Lancée en 2011 et acquise par Amazon en 2014, Twitch permet à des millions de streamers de diffuser du contenu en direct — du gaming à la musique en passant par les talk-shows et les arts créatifs — à un public mondial passionné.",
+      "philosophy": "Audacieuse, énergique et axée sur la communauté. L’identité de Twitch est ancrée par l’iconique Glitch — une marque mêlant bulle de dialogue et manette de jeu rendue dans un violet inimitable qui symbolise le divertissement en direct et interactif."
+    },
+    "pinterest": {
+      "description": "Pinterest est une plateforme de découverte visuelle et de signets où les utilisateurs trouvent et enregistrent des idées créatives — des recettes et la décoration intérieure à la mode et aux projets DIY. Fondée en 2010, elle sert plus de 450 millions d'utilisateurs actifs mensuels en tant que moteur d'inspiration personnalisé alimenté par la technologie de recherche visuelle.",
+      "philosophy": "L'identité de marque de Pinterest est centrée sur son emblématique badge rouge — un 'P' stylisé en forme d'épingle — symbolisant l'acte d'épingler et de sauvegarder l'inspiration. La typographie personnalisée Pinterest Sans de Grilli Type équilibre chaleur et clarté moderne, conçue pour laisser les images épinglées briller tout en maintenant une voix de marque distinctive et accessible."
+    },
+    "zoom": {
+      "description": "Zoom est une plateforme de communication qui rassemble les équipes grâce à la vidéoconférence, le chat, le téléphone et les outils de collaboration. Fondée en 2011, Zoom est devenue la plateforme de référence mondiale pour la communication virtuelle, servant des centaines de millions d'utilisateurs dans les entreprises, les écoles et les connexions personnelles.",
+      "philosophy": "L'identité de Zoom repose sur la simplicité et la connexion, utilisant un logotype bleu audacieux qui inspire confiance et clarté. Le rebranding de 2022 a introduit les polices personnalisées Happy Display et Almaden Sans, faisant évoluer Zoom d'une application vidéo vers une plateforme de communication unifiée."
+    },
+    "uber": {
+      "description": "Uber est une plateforme technologique mondiale qui met en relation passagers et chauffeurs, proposant des services de VTC, de livraison de repas, de transport de fret et de micro-mobilité. Fondée en 2009, Uber opère dans plus de 70 pays et a fondamentalement transformé le transport urbain.",
+      "philosophy": "L'identité d'Uber repose sur une simplicité audacieuse et une reconnaissance mondiale. Le logotype monochrome et la typographie Uber Move reflètent un engagement envers la clarté, l'efficacité et une mobilité urbaine fluide."
+    },
+    "reddit": {
+      "description": "Reddit est une plateforme d'agrégation d'actualités sociales et de discussion organisée en communautés appelées subreddits. Les utilisateurs partagent du contenu, votent sur les publications et commentaires, et participent à des conversations couvrant pratiquement tous les sujets. Reddit se décrit comme 'la page d'accueil d'internet.'",
+      "philosophy": "Axé sur la communauté et accessible. L'identité de Reddit est centrée sur la mascotte Snoo et la couleur Orangered, équilibrant le côté ludique avec le rôle de la plateforme en tant que hub sérieux pour la conversation et la découverte authentiques."
+    },
+    "canva": {
+      "description": "Canva est une plateforme de design et de publication en ligne qui permet à chacun de concevoir n'importe quoi et de publier partout. Fondée en 2013 à Sydney, en Australie, Canva est devenue l'un des outils de design les plus populaires au monde, rendant le design graphique de qualité professionnelle accessible à des millions de non-designers et de professionnels.",
+      "philosophy": "L'identité de Canva mêle des dégradés ludiques turquoise et violet à un logotype manuscrit distinctif pour incarner sa mission de démocratisation du design. Les formes de lettres organiques et fluides reflètent la créativité et l'accessibilité, tandis que le dégradé vibrant signale l'innovation et la joie dans le processus créatif."
     }
   },
   "tags": {
@@ -296,6 +328,7 @@
     "retail": "Commerce de détail",
     "platform": "Plateforme",
     "logistics": "Logistique",
+    "live-streaming": "Diffusion en Direct",
     "entertainment": "Divertissement",
     "video": "Vidéo",
     "movies": "Films",
@@ -306,7 +339,23 @@
     "photography": "Photographie",
     "camera": "Appareil photo",
     "ephemeral": "Éphémère",
-    "social": "Social"
+    "social": "Social",
+    "visual-discovery": "Découverte Visuelle",
+    "bookmarking": "Signets",
+    "shopping": "Shopping",
+    "video-conferencing": "Vidéoconférence",
+    "remote-work": "Travail à Distance",
+    "ride-sharing": "Covoiturage",
+    "delivery": "Livraison",
+    "mobility": "Mobilité",
+    "transportation": "Transport",
+    "forum": "Forum",
+    "discussion": "Discussion",
+    "encryption": "Chiffrement",
+    "mobile": "Mobile",
+    "publishing": "Publication",
+    "templates": "Modèles",
+    "creativity": "Créativité"
   },
   "tag": {
     "title": "Marques taguees \"{tag}\"",

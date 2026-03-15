@@ -185,7 +185,7 @@ export function CommandMenu({
                           alt={brand.name}
                           width={36}
                           height={36}
-                          className="size-full object-contain p-1"
+                          className="size-full object-contain p-0.5"
                         />
                       </div>
                       <span className="font-medium">{brand.name}</span>

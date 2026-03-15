@@ -5,6 +5,7 @@ import { adobe } from "./adobe"
 import { airbnb } from "./airbnb"
 import { amazon } from "./amazon"
 import { anthropic } from "./anthropic"
+import { canva } from "./canva"
 import { cursor } from "./cursor"
 import { apple } from "./apple"
 import { discord } from "./discord"
@@ -19,6 +20,8 @@ import { nvidia } from "./nvidia"
 import { microsoft } from "./microsoft"
 import { netflix } from "./netflix"
 import { openai } from "./openai"
+import { pinterest } from "./pinterest"
+import { reddit } from "./reddit"
 import { spotify } from "./spotify"
 import { shopify } from "./shopify"
 import { slack } from "./slack"
@@ -28,15 +31,20 @@ import { vercel } from "./vercel"
 import { vscode } from "./vscode"
 import { tesla } from "./tesla"
 import { tiktok } from "./tiktok"
+import { uber } from "./uber"
+import { twitch } from "./twitch"
 import { wise } from "./wise"
+import { whatsapp } from "./whatsapp"
 import { x } from "./x"
 import { youtube } from "./youtube"
+import { zoom } from "./zoom"
 
 const rawBrands: Brand[] = [
   adobe,
   airbnb,
   amazon,
   anthropic,
+  canva,
   apple,
   cursor,
   discord,
@@ -51,6 +59,8 @@ const rawBrands: Brand[] = [
   nvidia,
   notion,
   openai,
+  pinterest,
+  reddit,
   spotify,
   shopify,
   slack,
@@ -58,11 +68,15 @@ const rawBrands: Brand[] = [
   stripe,
   tesla,
   tiktok,
+  twitch,
+  uber,
   vercel,
   vscode,
+  whatsapp,
   wise,
   x,
   youtube,
+  zoom,
 ].sort((a, b) => a.name.localeCompare(b.name))
 
 function withAssetUrls(brand: Brand): Brand {

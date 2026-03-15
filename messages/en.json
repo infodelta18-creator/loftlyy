@@ -129,6 +129,10 @@
       "description": "Anthropic is an AI safety company focused on building reliable, interpretable, and steerable AI systems. Founded by former OpenAI researchers, it develops Claude, an AI assistant designed with safety at its core.",
       "philosophy": "Warm, trustworthy, and thoughtfully restrained. Anthropic's identity pairs an organic tan palette with clean typography to communicate safety-focused AI research — approachable yet serious, human yet technical."
     },
+    "canva": {
+      "description": "Canva is an online design and publishing platform that empowers everyone to design anything and publish anywhere. Founded in 2013 in Sydney, Australia, Canva has grown into one of the world's most popular design tools, making professional-quality graphic design accessible to millions.",
+      "philosophy": "Canva's identity blends playful teal and purple gradients with a distinctive hand-drawn wordmark to embody its mission of democratizing design. The flowing, organic letterforms reflect creativity and accessibility, while the vibrant gradient signals innovation and joy."
+    },
     "apple": {
       "description": "Apple designs, manufactures, and markets consumer electronics, software, and services. From the Macintosh to the iPhone, Apple has consistently redefined entire product categories through its obsession with design, simplicity, and user experience.",
       "philosophy": "Simplicity is the ultimate sophistication. Apple's monochromatic identity strips away everything unnecessary, letting the iconic bitten apple speak with quiet confidence — a symbol of innovation, premium quality, and human-centered design."
@@ -136,6 +140,10 @@
     "wise": {
       "description": "Wise is a global financial technology company that makes international money transfers fast, cheap, and transparent. Originally known as TransferWise, it serves millions of customers moving money across borders with real exchange rates.",
       "philosophy": "Transparent, bold, and borderless. Wise's identity uses a distinctive green and a flag motif to symbolize the movement of money across borders — straightforward design for a company that believes financial services should be fair and simple."
+    },
+    "whatsapp": {
+      "description": "WhatsApp is a globally ubiquitous messaging platform that enables text, voice, and video communication across devices. Owned by Meta, it serves over two billion users worldwide with end-to-end encrypted messaging, making it one of the most widely used communication tools on the planet.",
+      "philosophy": "Simple, reliable, and private. WhatsApp's identity centers on accessibility and trust — a clean, green speech bubble symbolizing direct, secure communication without barriers."
     },
     "figma": {
       "description": "Figma is a collaborative interface design tool that enables teams to design, prototype, and develop products together in real time. Acquired by Adobe in 2023, Figma has become the industry standard for UI/UX design, replacing traditional desktop tools with a browser-based platform.",
@@ -220,6 +228,30 @@
     "tiktok": {
       "description": "TikTok is the world's leading short-form video platform, where over a billion users create, discover, and share entertaining content. Launched internationally in 2017 by ByteDance, TikTok has redefined social media with its algorithm-driven feed and creative tools for music, comedy, education, and culture.",
       "philosophy": "Energetic, youthful, and unmistakably digital. TikTok's identity pairs a bold note symbol with a glitch-inspired cyan-and-red offset effect, creating a sense of movement and creativity that mirrors the platform's endless stream of short-form content."
+    },
+    "twitch": {
+      "description": "Twitch is the world's leading live-streaming platform for gamers, creators, and communities. Launched in 2011 and acquired by Amazon in 2014, Twitch enables millions of streamers to broadcast live content — from gaming and music to talk shows and creative arts — to a passionate global audience.",
+      "philosophy": "Bold, energetic, and community-driven. Twitch's identity is anchored by the iconic Glitch — a speech-bubble-meets-gaming-controller mark rendered in unmistakable purple that signals live, interactive entertainment and the passionate communities built around it."
+    },
+    "pinterest": {
+      "description": "Pinterest is a visual discovery and bookmarking platform where users find and save creative ideas — from recipes and home decor to fashion and DIY projects. Founded in 2010, it serves over 450 million monthly active users as a personalized inspiration engine powered by visual search technology.",
+      "philosophy": "Pinterest's brand identity centers on its signature red badge — a stylized 'P' pin — symbolizing the act of pinning and saving inspiration. The custom Pinterest Sans typeface by Grilli Type balances warmth with modern clarity, designed to let pinned imagery shine while maintaining a distinctive, approachable brand voice."
+    },
+    "zoom": {
+      "description": "Zoom is a communications platform that brings teams together with video meetings, chat, phone, and collaboration tools. Founded in 2011, Zoom became the world's go-to platform for virtual communication, serving hundreds of millions of users across businesses, schools, and personal connections.",
+      "philosophy": "Zoom's identity is built on simplicity and connection, using a bold blue wordmark that conveys trust and clarity. The 2022 rebrand introduced custom typefaces Happy Display and Almaden Sans, evolving Zoom from a video app into a unified communications platform."
+    },
+    "uber": {
+      "description": "Uber is a global technology platform that connects riders with drivers, offering ride-hailing, food delivery, freight transportation, and micro-mobility services. Founded in 2009, Uber operates in over 70 countries and has fundamentally transformed urban transportation.",
+      "philosophy": "Uber's identity is built on bold simplicity and global recognition. The monochrome wordmark and custom Uber Move typeface reflect a commitment to clarity, efficiency, and seamless urban mobility."
+    },
+    "reddit": {
+      "description": "Reddit is a social news aggregation and discussion platform organized into communities called subreddits. Users share content, vote on posts and comments, and participate in conversations spanning virtually every topic. Reddit describes itself as 'the front page of the internet.'",
+      "philosophy": "Community-first and accessible. Reddit's identity centers on the Snoo mascot and Orangered color, balancing playfulness with the platform's role as a serious hub for authentic conversation and discovery."
+    },
+    "canva": {
+      "description": "Canva is an online design and publishing platform that empowers everyone to design anything and publish anywhere. Founded in 2013 in Sydney, Australia, Canva has grown into one of the world's most popular design tools, making professional-quality graphic design accessible to millions of non-designers and professionals alike.",
+      "philosophy": "Canva's identity blends playful teal and purple gradients with a distinctive hand-drawn wordmark to embody its mission of democratizing design. The flowing, organic letterforms reflect creativity and accessibility, while the vibrant gradient signals innovation and joy in the creative process."
     }
   },
   "tags": {
@@ -291,6 +323,7 @@
     "augmented-reality": "Augmented Reality",
     "metaverse": "Metaverse",
     "logistics": "Logistics",
+    "live-streaming": "Live Streaming",
     "gpu": "GPU",
     "data-center": "Data Center",
     "autonomous-vehicles": "Autonomous Vehicles",
@@ -306,7 +339,23 @@
     "photography": "Photography",
     "camera": "Camera",
     "ephemeral": "Ephemeral",
-    "social": "Social"
+    "social": "Social",
+    "visual-discovery": "Visual Discovery",
+    "bookmarking": "Bookmarking",
+    "shopping": "Shopping",
+    "video-conferencing": "Video Conferencing",
+    "remote-work": "Remote Work",
+    "ride-sharing": "Ride Sharing",
+    "delivery": "Delivery",
+    "mobility": "Mobility",
+    "transportation": "Transportation",
+    "forum": "Forum",
+    "discussion": "Discussion",
+    "encryption": "Encryption",
+    "mobile": "Mobile",
+    "publishing": "Publishing",
+    "templates": "Templates",
+    "creativity": "Creativity"
   },
   "tag": {
     "title": "Brands tagged \"{tag}\"",

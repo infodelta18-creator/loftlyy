@@ -129,6 +129,10 @@
       "description": "Anthropic e un'azienda focalizzata sulla sicurezza dell'IA che costruisce sistemi di IA affidabili, interpretabili e controllabili. Fondata da ex ricercatori di OpenAI, sviluppa Claude, un assistente IA progettato con la sicurezza al centro.",
       "philosophy": "Calda, affidabile e attentamente misurata. L'identita di Anthropic unisce una palette organica color sabbia a una tipografia pulita per comunicare ricerca sull'IA orientata alla sicurezza: accessibile ma seria, umana ma tecnica."
     },
+    "canva": {
+      "description": "Canva e una piattaforma di design e pubblicazione online che permette a tutti di progettare qualsiasi cosa e pubblicare ovunque. Fondata nel 2013 a Sydney, in Australia, Canva e diventata uno degli strumenti di design piu popolari al mondo, rendendo il design grafico professionale accessibile a milioni di persone.",
+      "philosophy": "L'identita di Canva fonde gradienti giocosi di verde acqua e viola con un logotipo manoscritto distintivo per incarnare la missione di democratizzare il design. Le forme organiche e fluide riflettono creativita e accessibilita, mentre il vibrante gradiente segnala innovazione e gioia."
+    },
     "apple": {
       "description": "Apple progetta, produce e commercializza elettronica di consumo, software e servizi. Dal Macintosh all'iPhone, Apple ha ridefinito intere categorie di prodotto attraverso la sua ossessione per il design, la semplicita e l'esperienza utente.",
       "philosophy": "La semplicita e la massima sofisticazione. L'identita monocromatica di Apple elimina tutto il superfluo, lasciando che l'iconica mela morsicata parli con silenziosa sicurezza: un simbolo di innovazione, qualita premium e design centrato sulle persone."
@@ -136,6 +140,10 @@
     "wise": {
       "description": "Wise e una fintech globale che rende i trasferimenti internazionali di denaro rapidi, economici e trasparenti. In passato nota come TransferWise, serve milioni di clienti che spostano denaro oltre i confini con tassi di cambio reali.",
       "philosophy": "Trasparente, audace e senza confini. L'identita di Wise usa un verde distintivo e un motivo a bandiera per simboleggiare il movimento del denaro oltre i confini: design diretto per un'azienda che crede che i servizi finanziari debbano essere equi e semplici."
+    },
+    "whatsapp": {
+      "description": "WhatsApp è una piattaforma di messaggistica onnipresente a livello globale che consente la comunicazione tramite testo, voce e video su tutti i dispositivi. Di proprietà di Meta, serve oltre due miliardi di utenti in tutto il mondo con messaggistica crittografata end-to-end, rendendola uno degli strumenti di comunicazione più utilizzati al mondo.",
+      "philosophy": "Semplice, affidabile e privata. L'identità di WhatsApp è incentrata sull'accessibilità e la fiducia — una bolla di dialogo verde e pulita che simboleggia una comunicazione diretta e sicura senza barriere."
     },
     "figma": {
       "description": "Figma e uno strumento collaborativo per il design di interfacce che permette ai team di progettare, prototipare e sviluppare prodotti insieme in tempo reale. Acquisita da Adobe nel 2023, Figma e diventata lo standard del settore per il design UI/UX.",
@@ -220,6 +228,30 @@
     "tiktok": {
       "description": "TikTok è la principale piattaforma mondiale di video brevi, dove oltre un miliardo di utenti creano, scoprono e condividono contenuti divertenti. Lanciata a livello internazionale nel 2017 da ByteDance, TikTok ha ridefinito i social media con il suo feed guidato da algoritmi e strumenti creativi per musica, comicità, istruzione e cultura.",
       "philosophy": "Energico, giovane e inconfondibilmente digitale. L'identità di TikTok abbina un audace simbolo di nota musicale a un effetto di sfalsamento ciano e rosso ispirato al glitch, creando una sensazione di movimento e creatività che riflette il flusso infinito di contenuti brevi."
+    },
+    "twitch": {
+      "description": "Twitch è la principale piattaforma di streaming dal vivo al mondo per gamer, creatori e comunità. Lanciata nel 2011 e acquisita da Amazon nel 2014, Twitch consente a milioni di streamer di trasmettere contenuti dal vivo — dal gaming alla musica, dai talk show alle arti creative — a un pubblico globale appassionato.",
+      "philosophy": "Audace, energica e orientata alla comunità. L’identità di Twitch è ancorata all’iconico Glitch — un marchio che fonde fumetto e controller da gioco reso in un viola inconfondibile che simboleggia l’intrattenimento dal vivo e interattivo."
+    },
+    "pinterest": {
+      "description": "Pinterest è una piattaforma di scoperta visiva e segnalibri dove gli utenti trovano e salvano idee creative — dalle ricette e l'arredamento alla moda e ai progetti fai-da-te. Fondata nel 2010, serve oltre 450 milioni di utenti attivi mensili come motore di ispirazione personalizzato alimentato dalla tecnologia di ricerca visiva.",
+      "philosophy": "L'identità del marchio Pinterest è incentrata sul suo distintivo badge rosso — una 'P' stilizzata a forma di spillo — che simboleggia l'atto di fissare e salvare l'ispirazione. Il carattere personalizzato Pinterest Sans di Grilli Type bilancia calore e chiarezza moderna, progettato per far risaltare le immagini fissate mantenendo una voce del marchio distintiva e accessibile."
+    },
+    "zoom": {
+      "description": "Zoom è una piattaforma di comunicazione che riunisce i team con videoconferenze, chat, telefono e strumenti di collaborazione. Fondata nel 2011, Zoom è diventata la piattaforma di riferimento mondiale per la comunicazione virtuale, servendo centinaia di milioni di utenti tra aziende, scuole e connessioni personali.",
+      "philosophy": "L'identità di Zoom si basa sulla semplicità e la connessione, utilizzando un logotipo blu audace che trasmette fiducia e chiarezza. Il rebranding del 2022 ha introdotto i caratteri personalizzati Happy Display e Almaden Sans, trasformando Zoom da un'app video in una piattaforma di comunicazione unificata."
+    },
+    "uber": {
+      "description": "Uber è una piattaforma tecnologica globale che collega passeggeri e autisti, offrendo servizi di trasporto, consegna di cibo, trasporto merci e micro-mobilità. Fondata nel 2009, Uber opera in oltre 70 paesi e ha trasformato radicalmente il trasporto urbano.",
+      "philosophy": "L'identità di Uber si basa su una semplicità audace e un riconoscimento globale. Il logotipo monocromatico e il carattere personalizzato Uber Move riflettono un impegno verso la chiarezza, l'efficienza e una mobilità urbana senza interruzioni."
+    },
+    "reddit": {
+      "description": "Reddit è una piattaforma di aggregazione di notizie sociali e discussione organizzata in comunità chiamate subreddit. Gli utenti condividono contenuti, votano post e commenti e partecipano a conversazioni che coprono praticamente ogni argomento. Reddit si descrive come 'la prima pagina di internet.'",
+      "philosophy": "Incentrato sulla comunità e accessibile. L'identità di Reddit è centrata sulla mascotte Snoo e sul colore Orangered, bilanciando la giocosità con il ruolo della piattaforma come hub serio per conversazioni e scoperte autentiche."
+    },
+    "canva": {
+      "description": "Canva è una piattaforma online di design e pubblicazione che consente a tutti di progettare qualsiasi cosa e pubblicare ovunque. Fondata nel 2013 a Sydney, in Australia, Canva è diventata uno degli strumenti di design più popolari al mondo, rendendo il design grafico di qualità professionale accessibile a milioni di non-designer e professionisti.",
+      "philosophy": "L'identità di Canva fonde gradienti giocosi turchese e viola con un logotipo disegnato a mano per incarnare la sua missione di democratizzazione del design. Le forme delle lettere organiche e fluide riflettono creatività e accessibilità, mentre il gradiente vibrante segnala innovazione e gioia nel processo creativo."
     }
   },
   "tags": {
@@ -294,6 +326,7 @@
     "data-center": "Data Center",
     "autonomous-vehicles": "Veicoli Autonomi",
     "logistics": "Logistica",
+    "live-streaming": "Streaming dal Vivo",
     "retail": "Vendita al dettaglio",
     "platform": "Piattaforma",
     "entertainment": "Intrattenimento",
@@ -306,7 +339,23 @@
     "photography": "Fotografia",
     "camera": "Fotocamera",
     "ephemeral": "Effimero",
-    "social": "Sociale"
+    "social": "Sociale",
+    "visual-discovery": "Scoperta Visiva",
+    "bookmarking": "Segnalibri",
+    "shopping": "Shopping",
+    "video-conferencing": "Videoconferenza",
+    "remote-work": "Lavoro da Remoto",
+    "ride-sharing": "Ride sharing",
+    "delivery": "Consegna",
+    "mobility": "Mobilità",
+    "transportation": "Trasporto",
+    "forum": "Forum",
+    "discussion": "Discussione",
+    "encryption": "Crittografia",
+    "mobile": "Mobile",
+    "publishing": "Pubblicazione",
+    "templates": "Modelli",
+    "creativity": "Creatività"
   },
   "tag": {
     "title": "Brand taggati \"{tag}\"",

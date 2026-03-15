@@ -129,6 +129,10 @@
       "description": "Anthropic es una empresa de seguridad en IA enfocada en construir sistemas de IA confiables, interpretables y controlables. Fundada por ex investigadores de OpenAI, desarrolla Claude, un asistente de IA disenado con la seguridad como principio fundamental.",
       "philosophy": "Calida, confiable y cuidadosamente contenida. La identidad de Anthropic combina una paleta de tonos tierra con tipografia limpia para comunicar investigacion de IA centrada en la seguridad — accesible pero seria, humana pero tecnica."
     },
+    "canva": {
+      "description": "Canva es una plataforma de diseno y publicacion en linea que permite a todos disenar cualquier cosa y publicar en cualquier lugar. Fundada en 2013 en Sidney, Australia, Canva se ha convertido en una de las herramientas de diseno mas populares del mundo, haciendo accesible el diseno grafico profesional a millones de personas.",
+      "philosophy": "La identidad de Canva combina gradientes juguetones de verde azulado y purpura con un logotipo distintivo dibujado a mano para encarnar su mision de democratizar el diseno. Las formas organicas y fluidas reflejan creatividad y accesibilidad, mientras que el vibrante gradiente senala innovacion y alegria."
+    },
     "apple": {
       "description": "Apple disena, fabrica y comercializa electronica de consumo, software y servicios. Desde el Macintosh hasta el iPhone, Apple ha redefinido consistentemente categorias enteras de productos a traves de su obsesion por el diseno, la simplicidad y la experiencia del usuario.",
       "philosophy": "La simplicidad es la maxima sofisticacion. La identidad monocromatica de Apple elimina todo lo innecesario, dejando que la iconica manzana mordida hable con confianza silenciosa — un simbolo de innovacion, calidad premium y diseno centrado en las personas."
@@ -136,6 +140,10 @@
     "wise": {
       "description": "Wise es una empresa global de tecnologia financiera que hace que las transferencias internacionales de dinero sean rapidas, baratas y transparentes. Anteriormente conocida como TransferWise, atiende a millones de clientes que mueven dinero a traves de fronteras con tipos de cambio reales.",
       "philosophy": "Transparente, audaz y sin fronteras. La identidad de Wise utiliza un verde distintivo y un motivo de bandera para simbolizar el movimiento de dinero a traves de las fronteras — diseno directo para una empresa que cree que los servicios financieros deben ser justos y simples."
+    },
+    "whatsapp": {
+      "description": "WhatsApp es una plataforma de mensajería mundialmente ubicua que permite la comunicación por texto, voz y video en todos los dispositivos. Propiedad de Meta, sirve a más de dos mil millones de usuarios en todo el mundo con mensajería cifrada de extremo a extremo, convirtiéndola en una de las herramientas de comunicación más utilizadas del planeta.",
+      "philosophy": "Simple, confiable y privada. La identidad de WhatsApp se centra en la accesibilidad y la confianza — una burbuja de diálogo verde y limpia que simboliza la comunicación directa y segura sin barreras."
     },
     "figma": {
       "description": "Figma es una herramienta de diseno de interfaces colaborativa que permite a los equipos disenar, prototipar y desarrollar productos juntos en tiempo real. Adquirida por Adobe en 2023, Figma se ha convertido en el estandar de la industria para el diseno UI/UX.",
@@ -220,6 +228,30 @@
     "tiktok": {
       "description": "TikTok es la plataforma líder mundial de videos cortos, donde más de mil millones de usuarios crean, descubren y comparten contenido entretenido. Lanzada internacionalmente en 2017 por ByteDance, TikTok ha redefinido las redes sociales con su feed impulsado por algoritmos y herramientas creativas para música, comedia, educación y cultura.",
       "philosophy": "Enérgico, juvenil e inconfundiblemente digital. La identidad de TikTok combina un símbolo de nota musical audaz con un efecto de desplazamiento cian y rojo inspirado en glitches, creando una sensación de movimiento y creatividad que refleja el flujo interminable de contenido de formato corto."
+    },
+    "twitch": {
+      "description": "Twitch es la plataforma líder mundial de transmisión en vivo para jugadores, creadores y comunidades. Lanzada en 2011 y adquirida por Amazon en 2014, Twitch permite a millones de streamers transmitir contenido en vivo — desde juegos y música hasta programas de entrevistas y artes creativas — a una audiencia global apasionada.",
+      "philosophy": "Audaz, enérgica y orientada a la comunidad. La identidad de Twitch se ancla en el icónico Glitch — una marca que combina bocadillo de diálogo y controlador de juegos renderizada en un inconfundible púrpura que señala entretenimiento en vivo e interactivo."
+    },
+    "pinterest": {
+      "description": "Pinterest es una plataforma de descubrimiento visual y marcadores donde los usuarios encuentran y guardan ideas creativas — desde recetas y decoración del hogar hasta moda y proyectos de bricolaje. Fundada en 2010, sirve a más de 450 millones de usuarios activos mensuales como un motor de inspiración personalizado impulsado por tecnología de búsqueda visual.",
+      "philosophy": "La identidad de marca de Pinterest se centra en su distintiva insignia roja — una 'P' estilizada en forma de pin — que simboliza el acto de fijar y guardar inspiración. La tipografía personalizada Pinterest Sans de Grilli Type equilibra calidez con claridad moderna, diseñada para que las imágenes fijadas destaquen mientras mantiene una voz de marca distintiva y accesible."
+    },
+    "zoom": {
+      "description": "Zoom es una plataforma de comunicaciones que reúne equipos con videollamadas, chat, teléfono y herramientas de colaboración. Fundada en 2011, Zoom se convirtió en la plataforma de referencia mundial para la comunicación virtual, sirviendo a cientos de millones de usuarios en empresas, escuelas y conexiones personales.",
+      "philosophy": "La identidad de Zoom se basa en la simplicidad y la conexión, utilizando un logotipo tipográfico azul audaz que transmite confianza y claridad. El rediseño de 2022 introdujo las tipografías personalizadas Happy Display y Almaden Sans, transformando Zoom de una aplicación de video en una plataforma de comunicaciones unificada."
+    },
+    "uber": {
+      "description": "Uber es una plataforma tecnológica global que conecta pasajeros con conductores, ofreciendo servicios de transporte, entrega de comida, transporte de carga y micromovilidad. Fundada en 2009, Uber opera en más de 70 países y ha transformado fundamentalmente el transporte urbano.",
+      "philosophy": "La identidad de Uber se basa en una simplicidad audaz y un reconocimiento global. El logotipo monocromático y la tipografía personalizada Uber Move reflejan un compromiso con la claridad, la eficiencia y la movilidad urbana fluida."
+    },
+    "reddit": {
+      "description": "Reddit es una plataforma de agregación de noticias sociales y discusión organizada en comunidades llamadas subreddits. Los usuarios comparten contenido, votan publicaciones y comentarios, y participan en conversaciones que abarcan prácticamente cualquier tema. Reddit se describe a sí mismo como 'la portada de internet.'",
+      "philosophy": "Centrado en la comunidad y accesible. La identidad de Reddit se centra en la mascota Snoo y el color Orangered, equilibrando la diversión con el papel de la plataforma como un centro serio para la conversación y el descubrimiento auténticos."
+    },
+    "canva": {
+      "description": "Canva es una plataforma de diseño y publicación en línea que permite a todos diseñar cualquier cosa y publicar en cualquier lugar. Fundada en 2013 en Sídney, Australia, Canva se ha convertido en una de las herramientas de diseño más populares del mundo, haciendo que el diseño gráfico de calidad profesional sea accesible para millones de no diseñadores y profesionales por igual.",
+      "philosophy": "La identidad de Canva combina degradados juguetones en turquesa y púrpura con un distintivo logotipo dibujado a mano para encarnar su misión de democratizar el diseño. Las formas orgánicas y fluidas de las letras reflejan creatividad y accesibilidad, mientras que el vibrante degradado señala innovación y alegría en el proceso creativo."
     }
   },
   "tags": {
@@ -291,6 +323,7 @@
     "augmented-reality": "Realidad Aumentada",
     "metaverse": "Metaverso",
     "logistics": "Logistica",
+    "live-streaming": "Transmisión en Vivo",
     "gpu": "GPU",
     "data-center": "Centro de Datos",
     "autonomous-vehicles": "Vehiculos Autonomos",
@@ -306,7 +339,23 @@
     "photography": "Fotografía",
     "camera": "Cámara",
     "ephemeral": "Efímero",
-    "social": "Social"
+    "social": "Social",
+    "visual-discovery": "Descubrimiento Visual",
+    "bookmarking": "Marcadores",
+    "shopping": "Compras",
+    "video-conferencing": "Videoconferencia",
+    "remote-work": "Trabajo Remoto",
+    "ride-sharing": "Viajes compartidos",
+    "delivery": "Entrega",
+    "mobility": "Movilidad",
+    "transportation": "Transporte",
+    "forum": "Foro",
+    "discussion": "Discusión",
+    "encryption": "Cifrado",
+    "mobile": "Móvil",
+    "publishing": "Publicación",
+    "templates": "Plantillas",
+    "creativity": "Creatividad"
   },
   "tag": {
     "title": "Marcas etiquetadas \"{tag}\"",

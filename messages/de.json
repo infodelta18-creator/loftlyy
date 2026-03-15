@@ -129,6 +129,10 @@
       "description": "Anthropic ist ein KI-Sicherheitsunternehmen, das sich auf den Bau zuverlaessiger, interpretierbarer und steuerbarer KI-Systeme konzentriert. Gegruendet von ehemaligen OpenAI-Forschern, entwickelt es Claude, einen KI-Assistenten, der mit Sicherheit als Kernprinzip konzipiert wurde.",
       "philosophy": "Warm, vertrauenswuerdig und bedacht zurueckhaltend. Anthropics Identitaet verbindet eine organische Erdton-Palette mit klarer Typografie, um sicherheitsorientierte KI-Forschung zu kommunizieren — zugaenglich und dennoch ernsthaft, menschlich und dennoch technisch."
     },
+    "canva": {
+      "description": "Canva ist eine Online-Design- und Veroeffentlichungsplattform, die es jedem ermoeglicht, alles zu gestalten und ueberall zu veroeffentlichen. 2013 in Sydney, Australien gegruendet, ist Canva zu einem der beliebtesten Design-Tools der Welt geworden und macht professionelles Grafikdesign fuer Millionen von Menschen zugaenglich.",
+      "philosophy": "Canvas Identitaet verbindet spielerische Tuerkis- und Violett-Verlaeufe mit einem markanten handgezeichneten Schriftzug, um die Mission der Demokratisierung von Design zu verkoerpern. Die fliessenden, organischen Buchstabenformen spiegeln Kreativitaet und Zugaenglichkeit wider, waehrend der lebhafte Farbverlauf Innovation und Freude signalisiert."
+    },
     "apple": {
       "description": "Apple entwirft, fertigt und vermarktet Unterhaltungselektronik, Software und Dienstleistungen. Vom Macintosh bis zum iPhone hat Apple konsequent ganze Produktkategorien durch seine Besessenheit fuer Design, Einfachheit und Benutzererfahrung neu definiert.",
       "philosophy": "Einfachheit ist die hoechste Raffinesse. Apples monochromatische Identitaet entfernt alles Unnoetige und laesst den ikonischen angebissenen Apfel mit stiller Zuversicht sprechen — ein Symbol fuer Innovation, Premium-Qualitaet und menschenzentriertes Design."
@@ -136,6 +140,10 @@
     "wise": {
       "description": "Wise ist ein globales Finanztechnologieunternehmen, das internationale Geldtransfers schnell, guenstig und transparent macht. Fruher als TransferWise bekannt, bedient es Millionen von Kunden, die Geld ueber Grenzen hinweg mit echten Wechselkursen senden.",
       "philosophy": "Transparent, mutig und grenzenlos. Wises Identitaet nutzt ein markantes Gruen und ein Flaggenmotiv, um die Bewegung von Geld ueber Grenzen zu symbolisieren — geradliniges Design fuer ein Unternehmen, das glaubt, dass Finanzdienstleistungen fair und einfach sein sollten."
+    },
+    "whatsapp": {
+      "description": "WhatsApp ist eine weltweit allgegenwärtige Messaging-Plattform, die Text-, Sprach- und Videokommunikation über alle Geräte hinweg ermöglicht. Im Besitz von Meta, bedient sie über zwei Milliarden Nutzer weltweit mit Ende-zu-Ende-verschlüsselter Nachrichtenübermittlung und ist damit eines der meistgenutzten Kommunikationswerkzeuge der Welt.",
+      "philosophy": "Einfach, zuverlässig und privat. WhatsApps Identität konzentriert sich auf Zugänglichkeit und Vertrauen — eine saubere, grüne Sprechblase, die direkte, sichere Kommunikation ohne Barrieren symbolisiert."
     },
     "figma": {
       "description": "Figma ist ein kollaboratives Interface-Design-Tool, das es Teams ermoeglicht, Produkte gemeinsam in Echtzeit zu entwerfen, zu prototypen und zu entwickeln. 2023 von Adobe uebernommen, ist Figma zum Industriestandard fuer UI/UX-Design geworden.",
@@ -209,6 +217,10 @@
       "description": "TikTok ist die weltweit führende Plattform für Kurzvideos, auf der über eine Milliarde Nutzer unterhaltsame Inhalte erstellen, entdecken und teilen. 2017 international von ByteDance eingeführt, hat TikTok die sozialen Medien mit seinem algorithmusgesteuerten Feed und kreativen Werkzeugen für Musik, Comedy, Bildung und Kultur neu definiert.",
       "philosophy": "Energiegeladen, jugendlich und unverkennbar digital. TikToks Identität verbindet ein markantes Notensymbol mit einem Glitch-inspirierten Cyan-Rot-Versatzeffekt, der Bewegung und Kreativität erzeugt und den endlosen Strom von Kurzform-Inhalten widerspiegelt."
     },
+    "twitch": {
+      "description": "Twitch ist die weltweit führende Live-Streaming-Plattform für Gamer, Creator und Communities. 2011 gestartet und 2014 von Amazon übernommen, ermöglicht Twitch Millionen von Streamern, Live-Inhalte zu übertragen — von Gaming und Musik bis hin zu Talkshows und kreativen Künsten — an ein leidenschaftliches globales Publikum.",
+      "philosophy": "Mutig, energiegeladen und gemeinschaftsorientiert. Twitchs Identität wird durch den ikonischen Glitch verankert — ein Zeichen, das Sprechblase und Gaming-Controller vereint, in unverkennbarem Lila gehalten und für interaktive Live-Unterhaltung steht."
+    },
     "youtube": {
       "description": "YouTube ist die weltweit größte Video-Sharing-Plattform, die es Nutzern ermöglicht, Videos hochzuladen, anzusehen und zu teilen. 2005 gegründet und 2006 von Google übernommen, ist YouTube zum bevorzugten Ziel für Videoinhalte geworden — von Musik und Bildung bis hin zu Unterhaltung und Live-Streaming — und bedient monatlich über 2 Milliarden angemeldete Nutzer.",
       "philosophy": "Mutig, verspielt und universell zugänglich. YouTubes Identität dreht sich um den ikonischen roten Play-Button — ein universelles Symbol für „drück auf Play“ — gepaart mit klarer Typografie, die den Inhalt in den Vordergrund stellt und jeden einlädt, sich mitzuteilen."
@@ -220,6 +232,26 @@
     "snapchat": {
       "description": "Snapchat ist eine Multimedia-Messaging-App, die für ihre vergänglichen Foto- und Videoinhalte, Augmented-Reality-Linsen und das Stories-Format bekannt ist. Von Snap Inc. entwickelt, war sie Vorreiterin für verschwindende Inhalte und ist zu einer der beliebtesten sozialen Plattformen unter jüngeren Zielgruppen weltweit geworden.",
       "philosophy": "Snapchats Identität basiert auf dem ikonischen Geist — einem verspielten, zugänglichen Symbol, das die vergängliche Natur der Plattform repräsentiert. Das kräftige Gelb und die minimalistische Geist-Silhouette schaffen sofortige Wiedererkennung und verkörpern Kreativität, Spontaneität und authentischen Selbstausdruck."
+    },
+    "pinterest": {
+      "description": "Pinterest ist eine visuelle Entdeckungs- und Lesezeichen-Plattform, auf der Nutzer kreative Ideen finden und speichern — von Rezepten und Wohnkultur bis hin zu Mode und DIY-Projekten. 2010 gegründet, bedient sie über 450 Millionen monatlich aktive Nutzer als personalisierte Inspirationsmaschine, angetrieben von visueller Suchtechnologie.",
+      "philosophy": "Pinterests Markenidentität konzentriert sich auf das markante rote Badge — ein stilisiertes 'P' in Pin-Form — das das Anheften und Speichern von Inspiration symbolisiert. Die maßgeschneiderte Schrift Pinterest Sans von Grilli Type verbindet Wärme mit moderner Klarheit und ist so gestaltet, dass angeheftete Bilder im Mittelpunkt stehen, während eine unverwechselbare, zugängliche Markenstimme beibehalten wird."
+    },
+    "zoom": {
+      "description": "Zoom ist eine Kommunikationsplattform, die Teams mit Videokonferenzen, Chat, Telefonie und Kollaborationstools zusammenbringt. 2011 gegründet, wurde Zoom zur weltweit führenden Plattform für virtuelle Kommunikation und bedient Hunderte Millionen Nutzer in Unternehmen, Schulen und persönlichen Verbindungen.",
+      "philosophy": "Zooms Identität basiert auf Einfachheit und Verbindung, mit einem markanten blauen Schriftzug, der Vertrauen und Klarheit vermittelt. Das Rebranding 2022 führte die maßgeschneiderten Schriften Happy Display und Almaden Sans ein und entwickelte Zoom von einer Video-App zu einer einheitlichen Kommunikationsplattform."
+    },
+    "uber": {
+      "description": "Uber ist eine globale Technologieplattform, die Fahrgäste mit Fahrern verbindet und Fahrdienstleistungen, Essenslieferungen, Gütertransport und Mikromobilität anbietet. 2009 gegründet, ist Uber in über 70 Ländern tätig und hat den städtischen Verkehr grundlegend verändert.",
+      "philosophy": "Ubers Identität basiert auf mutiger Einfachheit und globaler Wiedererkennung. Das monochrome Wortzeichen und die hauseigene Schrift Uber Move spiegeln ein Engagement für Klarheit, Effizienz und nahtlose urbane Mobilität wider."
+    },
+    "reddit": {
+      "description": "Reddit ist eine soziale Nachrichtenaggregations- und Diskussionsplattform, die in Gemeinschaften namens Subreddits organisiert ist. Nutzer teilen Inhalte, stimmen über Beiträge und Kommentare ab und nehmen an Gesprächen teil, die praktisch jedes Thema abdecken. Reddit beschreibt sich selbst als 'die Startseite des Internets.'",
+      "philosophy": "Gemeinschaftsorientiert und zugänglich. Reddits Identität konzentriert sich auf das Snoo-Maskottchen und die Orangered-Farbe und verbindet Verspieltheit mit der Rolle der Plattform als ernsthafter Knotenpunkt für authentische Gespräche und Entdeckungen."
+    },
+    "canva": {
+      "description": "Canva ist eine Online-Design- und Veröffentlichungsplattform, die es jedem ermöglicht, alles zu gestalten und überall zu veröffentlichen. 2013 in Sydney, Australien, gegründet, hat sich Canva zu einem der weltweit beliebtesten Design-Tools entwickelt und macht professionelles Grafikdesign für Millionen von Nicht-Designern und Profis gleichermaßen zugänglich.",
+      "philosophy": "Canvas Identität verbindet verspielte Türkis- und Violett-Farbverläufe mit einer unverwechselbaren handgezeichneten Wortmarke, um die Mission der Demokratisierung von Design zu verkörpern. Die fließenden, organischen Buchstabenformen spiegeln Kreativität und Zugänglichkeit wider, während der lebhafte Farbverlauf Innovation und Freude am kreativen Prozess signalisiert."
     }
   },
   "tags": {
@@ -296,6 +328,7 @@
     "retail": "Einzelhandel",
     "platform": "Plattform",
     "logistics": "Logistik",
+    "live-streaming": "Live-Streaming",
     "entertainment": "Unterhaltung",
     "video": "Video",
     "movies": "Filme",
@@ -306,7 +339,23 @@
     "social": "Sozial",
     "creators": "Ersteller",
     "creative": "Kreativ",
-    "short-form-video": "Kurzvideos"
+    "short-form-video": "Kurzvideos",
+    "visual-discovery": "Visuelle Entdeckung",
+    "bookmarking": "Lesezeichen",
+    "shopping": "Einkaufen",
+    "video-conferencing": "Videokonferenz",
+    "remote-work": "Remote-Arbeit",
+    "ride-sharing": "Mitfahrgelegenheit",
+    "delivery": "Lieferung",
+    "mobility": "Mobilität",
+    "transportation": "Transport",
+    "forum": "Forum",
+    "discussion": "Diskussion",
+    "encryption": "Verschlüsselung",
+    "mobile": "Mobil",
+    "publishing": "Veröffentlichung",
+    "templates": "Vorlagen",
+    "creativity": "Kreativität"
   },
   "tag": {
     "title": "Marken mit Tag \"{tag}\"",

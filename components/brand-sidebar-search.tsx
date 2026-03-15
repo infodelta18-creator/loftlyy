@@ -111,7 +111,7 @@ export function BrandSidebarSearch({
                     href={`/${brand.slug}`}
                     onClick={onNavigate}
                     className={cn(
-                      "flex items-center gap-3 rounded-lg px-2 py-1.5 transition-colors",
+                      "flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors",
                       isActive
                         ? "bg-neutral-100/70 dark:bg-neutral-800/50"
                         : "hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
@@ -138,13 +138,21 @@ export function BrandSidebarSearch({
                         height={36}
                         loading="lazy"
                         className={cn(
-                          "h-full w-full object-contain",
-                          brand.thumbnail.width / brand.thumbnail.height < 0.85
-                            ? "p-0.5"
-                            : brand.thumbnail.width / brand.thumbnail.height >
-                                1.1
-                              ? "p-1.5"
-                              : "p-1"
+                          "h-full w-full object-contain scale-80  ",
+                          brand.thumbnail.width / brand.thumbnail.height < 0.7
+                            ? "p-1"
+                            : brand.thumbnail.width / brand.thumbnail.height <
+                                0.85
+                              ? "p-1"
+                              : brand.thumbnail.width /
+                                    brand.thumbnail.height >
+                                  1.5
+                                ? "p-0.5"
+                                : brand.thumbnail.width /
+                                      brand.thumbnail.height >
+                                    1.1
+                                  ? "p-1"
+                                  : "p-1"
                         )}
                       />
                     </div>
