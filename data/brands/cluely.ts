@@ -4,7 +4,7 @@ export const cluely: Brand = {
   slug: "cluely",
   name: "Cluely",
   description:
-    "Cluely is a real-time AI assistant that provides live suggestions and answers during meetings, interviews, and calls. Built for high-stakes conversations, it operates invisibly through an overlay interface powered by large language models.",
+    "Cluely is a real-time AI overlay that provides live answers and suggestions across meetings, interviews, sales calls, coding, and writing. Built for high-stakes moments, it operates invisibly on screen and is powered by large language models to help users perform at their best.",
   url: "https://cluely.com",
   industry: "ai",
   categories: ["ai", "saas", "technology", "wordmark-logos"],
@@ -34,7 +34,7 @@ export const cluely: Brand = {
     },
     {
       name: "Cluely Blue",
-      hex: "#4B87FF",
+      hex: "#3C83F5",
       usage: "Accent blue for interactive elements and highlights.",
     },
     {
@@ -114,7 +114,7 @@ export const cluely: Brand = {
   philosophy:
     "Clean, professional, and quietly confident. Cluely's identity pairs soft lavender tones with deep charcoal, projecting trustworthiness and discretion for a tool designed to assist invisibly during high-stakes conversations.",
   legal: {
-    guidelinesUrl: "https://cluely.com/terms",
+    guidelinesUrl: "https://cluely.com/legal",
     dos: [
       "Use the official Cluely wordmark and icon assets provided",
       "Maintain adequate clear space around the logo",
