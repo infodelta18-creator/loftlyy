@@ -1,24 +1,24 @@
 {
   "metadata": {
     "siteName": "Loftlyy",
-    "siteDescription": "Entdecken und erkunden Sie Markenidentitaeten, Logos, Farben und Designsysteme"
+    "siteDescription": "Entdecken und erkunden Sie Markenidentitäten, Logos, Farben und Designsysteme"
   },
   "home": {
-    "headline": "Entdecken Sie echte Markenidentitaeten.",
-    "subheadline": "Eine stetig wachsende Datenbank fuer Markenidentitaet.",
+    "headline": "Entdecken Sie echte Markenidentitäten.",
+    "subheadline": "Eine stetig wachsende Datenbank für Markenidentität.",
     "popular": "Beliebt",
     "explore": "Weitere Marken",
     "browseAll": "Nutzen Sie die Seitenleiste, um {count} Marken zu suchen und zu filtern",
     "startExploring": "Jetzt entdecken",
     "cta": "Jetzt entdecken",
-    "sponsor": "Unterstuetzen"
+    "sponsor": "Unterstützen"
   },
   "nav": {
     "search": "Marken suchen",
     "allBrands": "Alle Marken",
     "categories": "Kategorien",
     "filters": "Filter",
-    "clearFilters": "Alle loeschen",
+    "clearFilters": "Alle löschen",
     "industry": "Branche",
     "styleTags": "Stil",
     "colorFamily": "Farbe",
@@ -28,7 +28,7 @@
     "theme": "Design"
   },
   "brand": {
-    "overview": "Uebersicht",
+    "overview": "Übersicht",
     "colors": "Farben",
     "typography": "Typografie",
     "logoVariations": "Logo-Variationen",
@@ -39,17 +39,17 @@
     "copied": "Kopiert!",
     "copyPaletteJson": "JSON kopieren",
     "download": "Herunterladen",
-    "selectBrand": "Waehlen Sie eine Marke in der Seitenleiste aus, um ihre Identitaet zu erkunden",
+    "selectBrand": "Wählen Sie eine Marke in der Seitenleiste aus, um ihre Identität zu erkunden",
     "brandStory": "Markengeschichte",
-    "founded": "Gegruendet",
+    "founded": "Gegründet",
     "headquarters": "Hauptsitz",
-    "identityDesigner": "Identitaetsdesigner",
+    "identityDesigner": "Identitätsdesigner",
     "lastRebranded": "Letztes Rebranding",
     "philosophy": "Designphilosophie",
-    "similarBrands": "Aehnliche Marken",
+    "similarBrands": "Ähnliche Marken",
     "copyFontName": "Schriftname kopieren",
     "fontCopied": "Kopiert!",
-    "legalNotice": "Alle Marken, Logos, Markenressourcen und visuelle Identitaetselemente auf dieser Seite sind ausschliessliches Eigentum von {brandName} und seinen verbundenen Unternehmen. Sie werden hier nur zu Informations- und Bildungszwecken angezeigt.",
+    "legalNotice": "Alle Marken, Logos, Markenressourcen und visuelle Identitätselemente auf dieser Seite sind ausschließliches Eigentum von {brandName} und seinen verbundenen Unternehmen. Sie werden hier nur zu Informations- und Bildungszwecken angezeigt.",
     "viewGuidelines": "Offizielle Markenrichtlinien ansehen",
     "brandGuidelines": "Markennutzungsrichtlinien",
     "dos": "Erlaubt",
@@ -65,24 +65,24 @@
     "noBrandsInCategory": "Keine Marken in dieser Kategorie gefunden."
   },
   "seo": {
-    "brandTitle": "{brandName} Markenidentitaet & Designsystem | Loftlyy",
-    "brandDescription": "Entdecken Sie die Markenidentitaet von {brandName} einschliesslich Logo, Farben, Typografie und Designsystem. {brandName} ist ein {industry}-Unternehmen.",
-    "categoryTitle": "{category} Markenidentitaeten | Loftlyy",
-    "categoryDescription": "Entdecken Sie {count} {category} Markenidentitaeten. Erkunden Sie Logos, Farbpaletten und Designsysteme der besten {category}-Unternehmen.",
+    "brandTitle": "{brandName} Markenidentität & Designsystem | Loftlyy",
+    "brandDescription": "Entdecken Sie die Markenidentität von {brandName} einschließlich Logo, Farben, Typografie und Designsystem. {brandName} ist ein {industry}-Unternehmen.",
+    "categoryTitle": "{category} Markenidentitäten | Loftlyy",
+    "categoryDescription": "Entdecken Sie {count} {category} Markenidentitäten. Erkunden Sie Logos, Farbpaletten und Designsysteme der besten {category}-Unternehmen.",
     "tagTitle": "Marken mit Tag {tag} | Loftlyy",
     "tagDescription": "Entdecke {count} Marken mit dem Tag {tag}. Erkunde Logos, Farbpaletten und Designsysteme.",
     "colorTitle": "{color} Marken | Loftlyy",
-    "colorDescription": "Entdecke {count} Marken, die {color} in ihrer Markenidentitat verwenden.",
+    "colorDescription": "Entdecke {count} Marken, die {color} in ihrer Markenidentität verwenden.",
     "typographyTitle": "Marken mit {style}-Typografie | Loftlyy",
-    "typographyDescription": "Entdecke {count} Marken mit {style}-Typografie in ihrer Markenidentitat.",
+    "typographyDescription": "Entdecke {count} Marken mit {style}-Typografie in ihrer Markenidentität.",
     "faqColorQuestion": "Welche Farben verwendet {brandName}?",
-    "faqColorAnswer": "{brandName} verwendet {colors} in seiner Markenidentitat.",
+    "faqColorAnswer": "{brandName} verwendet {colors} in seiner Markenidentität.",
     "faqFontQuestion": "Welche Schriftart verwendet {brandName}?",
-    "faqFontAnswer": "{brandName} verwendet {fonts} in seiner Markenidentitat.",
+    "faqFontAnswer": "{brandName} verwendet {fonts} in seiner Markenidentität.",
     "faqIndustryQuestion": "In welcher Branche ist {brandName}?",
-    "faqIndustryAnswer": "{brandName} ist in der {industry}-Branche tatig.",
-    "faqFoundedQuestion": "Wann wurde {brandName} gegrundet?",
-    "faqFoundedAnswer": "{brandName} wurde {year} gegrundet."
+    "faqIndustryAnswer": "{brandName} ist in der {industry}-Branche tätig.",
+    "faqFoundedQuestion": "Wann wurde {brandName} gegründet?",
+    "faqFoundedAnswer": "{brandName} wurde {year} gegründet."
   },
   "categories": {
     "fintech": "Fintech",
@@ -104,8 +104,8 @@
   },
   "brands": {
     "abode": {
-      "description": "Abode ist eine soziale Mobile-App, die dein Telefon in einen Multiplayer-Treffpunkt verwandelt. Entwickelt von Look Engineering, Inc., ermoeglicht sie Freunden, sich ueber geteilte interaktive Widgets namens Magnets zu verbinden fuer kollaborative Spiele, Playlists, Umfragen und Echtzeit-Aktivitaeten.",
-      "philosophy": "Abodes Identitaet basiert auf der Idee, dass Telefone Menschen naeherbringen, nicht trennen sollten. Das fette, geometrische Wortbild in Signaturblau verankert ein lebendiges, verspieltes visuelles System, das Verbindung, Spontaneitaet und gemeinsame Momente feiert."
+      "description": "Abode ist eine soziale Mobile-App, die dein Telefon in einen Multiplayer-Treffpunkt verwandelt. Entwickelt von Look Engineering, Inc., ermöglicht sie Freunden, sich über geteilte interaktive Widgets namens Magnets zu verbinden für kollaborative Spiele, Playlists, Umfragen und Echtzeit-Aktivitäten.",
+      "philosophy": "Abodes Identität basiert auf der Idee, dass Telefone Menschen näherbringen, nicht trennen sollten. Das fette, geometrische Wortbild in Signaturblau verankert ein lebendiges, verspieltes visuelles System, das Verbindung, Spontaneität und gemeinsame Momente feiert."
     },
     "adidas": {
       "description": "adidas ist eine globale Sportbekleidungsmarke mit Hauptsitz in Herzogenaurach, Deutschland. 1949 von Adolf Dassler gegründet, entwirft und verkauft adidas Schuhe, Bekleidung und Zubehör für Sport und Alltag. Bekannt durch die ikonischen Drei Streifen und das bergförmige Performance-Logo, ist adidas zu einer der bekanntesten Sportmarken der Welt geworden.",
@@ -116,28 +116,28 @@
       "philosophy": "Kreativ, professionell und zuverlässig. Adobes Identität vereint das ikonische rote Logo mit einer umfassenden Produktpalette, die Kreativität in jeder Form unterstützt — vom einzelnen Künstler bis zum globalen Unternehmen."
     },
     "airbnb": {
-      "description": "Airbnb ist ein globaler Online-Marktplatz fuer Unterkuenfte, Erlebnisse und touristische Aktivitaeten. 2008 in San Francisco gegruendet, verbindet es Millionen von Gastgebern und Reisenden weltweit und veraendert die Art, wie Menschen einzigartige Unterkuenfte finden und lokale Kultur erleben.",
-      "philosophy": "Airbnbs Identitaet wird durch das Belo verankert — ein Symbol der Zugehoerigkeit, das Menschen, Orte, Liebe und Airbnb selbst repraesentiert. Die warme Rausch-Farbe und die massgeschneiderte Cereal-Schrift schaffen eine freundliche, zugaengliche Marke, die zur Verbindung und Erkundung ueber Kulturen hinweg einlaedt."
+      "description": "Airbnb ist ein globaler Online-Marktplatz für Unterkünfte, Erlebnisse und touristische Aktivitäten. 2008 in San Francisco gegründet, verbindet es Millionen von Gastgebern und Reisenden weltweit und verändert die Art, wie Menschen einzigartige Unterkünfte finden und lokale Kultur erleben.",
+      "philosophy": "Airbnbs Identität wird durch das Bélo verankert — ein Symbol der Zugehörigkeit, das Menschen, Orte, Liebe und Airbnb selbst repräsentiert. Die warme Rausch-Farbe und die maßgeschneiderte Cereal-Schrift schaffen eine freundliche, zugängliche Marke, die zur Verbindung und Erkundung über Kulturen hinweg einlädt."
     },
     "amazon": {
-      "description": "Amazon ist der weltweit groesste Online-Haendler und Cloud-Computing-Anbieter, der alles von E-Commerce und digitalem Streaming bis hin zu kuenstlicher Intelligenz und Logistik anbietet. 1994 von Jeff Bezos gegruendet, ist Amazon zu einem der wertvollsten Unternehmen der Welt gewachsen.",
-      "philosophy": "Amazons Identitaet wird durch den ikonischen Smile-Pfeil verankert — eine geschwungene Linie von A bis Z, die das Versprechen des Unternehmens repraesentiert, alles mit einem Laecheln zu liefern. Das warme Orange und die klare Wortmarke vermitteln Zugaenglichkeit und Kundenobsession in grossem Massstab."
+      "description": "Amazon ist der weltweit größte Online-Händler und Cloud-Computing-Anbieter, der alles von E-Commerce und digitalem Streaming bis hin zu künstlicher Intelligenz und Logistik anbietet. 1994 von Jeff Bezos gegründet, ist Amazon zu einem der wertvollsten Unternehmen der Welt gewachsen.",
+      "philosophy": "Amazons Identität wird durch den ikonischen Smile-Pfeil verankert — eine geschwungene Linie von A bis Z, die das Versprechen des Unternehmens repräsentiert, alles mit einem Lächeln zu liefern. Das warme Orange und die klare Wortmarke vermitteln Zugänglichkeit und Kundenobsession in großem Maßstab."
     },
     "discord": {
-      "description": "Discord ist eine Sprach-, Video- und Textkommunikationsplattform, die fuer den Aufbau von Gemeinschaften entwickelt wurde. Urspruenglich fuer Gamer gebaut, hat sie sich erweitert, um Gemeinschaften aller Art zu bedienen — von Lerngruppen ueber Kuenstlerkollektive bis hin zu Open-Source-Projekten. Discords Mission ist es, einen Raum zu schaffen, in dem jeder seinen Platz finden kann.",
-      "philosophy": "Verspielt, zugaenglich und inklusiv. Discords Identitaet balanciert jugendliche Energie mit der Klarheit, die fuer eine Kommunikationsplattform erforderlich ist, wobei das ikonische Clyde-Maskottchen und Blurple als Ankerpunkte der Wiedererkennung dienen."
+      "description": "Discord ist eine Sprach-, Video- und Textkommunikationsplattform, die für den Aufbau von Gemeinschaften entwickelt wurde. Ursprünglich für Gamer gebaut, hat sie sich erweitert, um Gemeinschaften aller Art zu bedienen — von Lerngruppen über Künstlerkollektive bis hin zu Open-Source-Projekten. Discords Mission ist es, einen Raum zu schaffen, in dem jeder seinen Platz finden kann.",
+      "philosophy": "Verspielt, zugänglich und inklusiv. Discords Identität balanciert jugendliche Energie mit der Klarheit, die für eine Kommunikationsplattform erforderlich ist, wobei das ikonische Clyde-Maskottchen und Blurple als Ankerpunkte der Wiedererkennung dienen."
     },
     "spotify": {
-      "description": "Spotify ist die weltweit groesste Audio-Streaming-Plattform mit Millionen von Songs, Podcasts und Hoerbuechern. In Schweden gegruendet, hat es die Art und Weise veraendert, wie Menschen Musik entdecken und hoeren — mit personalisierten Playlists und algorithmischen Empfehlungen.",
-      "philosophy": "Mutig, lebendig und zugaenglich. Spotifys Identitaet nutzt das ikonische Gruen und ein klares geometrisches Logo, um die Freude an der Musikentdeckung darzustellen und Audioinhalte persoenlich und universell einladend wirken zu lassen."
+      "description": "Spotify ist die weltweit größte Audio-Streaming-Plattform mit Millionen von Songs, Podcasts und Hörbüchern. In Schweden gegründet, hat es die Art und Weise verändert, wie Menschen Musik entdecken und hören — mit personalisierten Playlists und algorithmischen Empfehlungen.",
+      "philosophy": "Mutig, lebendig und zugänglich. Spotifys Identität nutzt das ikonische Grün und ein klares geometrisches Logo, um die Freude an der Musikentdeckung darzustellen und Audioinhalte persönlich und universell einladend wirken zu lassen."
     },
     "openai": {
-      "description": "OpenAI ist ein KI-Forschungs- und Einsatzunternehmen, das sich dafuer einsetzt, dass kuenstliche allgemeine Intelligenz der gesamten Menschheit zugutekommt. Bekannt fuer die Entwicklung von GPT und ChatGPT, fuehrt es die Entwicklung grosser Sprachmodelle und KI-Systeme an.",
-      "philosophy": "Minimalistisch, autoritativ und zukunftsorientiert. OpenAIs Identitaet vermittelt Vertrauen und technologische Raffinesse durch zurueckhaltendes Design, mit markantem Schwarz-Weiss und gezielten gruenen Akzenten, die Innovation ohne Einschuechterung signalisieren."
+      "description": "OpenAI ist ein KI-Forschungs- und Einsatzunternehmen, das sich dafür einsetzt, dass künstliche allgemeine Intelligenz der gesamten Menschheit zugutekommt. Bekannt für die Entwicklung von GPT und ChatGPT, führt es die Entwicklung großer Sprachmodelle und KI-Systeme an.",
+      "philosophy": "Minimalistisch, autoritativ und zukunftsorientiert. Das Rebranding von OpenAI im Jahr 2025 führte OpenAI Sans ein — eine exklusive Schrift von ABC Dinamo — sowie eine Palette aus Grau- und Blautönen, die Offenheit und Möglichkeit evoziert. Die Identität vermittelt technologische Raffinesse und wirkt dabei zutiefst menschlich."
     },
     "anthropic": {
-      "description": "Anthropic ist ein KI-Sicherheitsunternehmen, das sich auf den Bau zuverlaessiger, interpretierbarer und steuerbarer KI-Systeme konzentriert. Gegruendet von ehemaligen OpenAI-Forschern, entwickelt es Claude, einen KI-Assistenten, der mit Sicherheit als Kernprinzip konzipiert wurde.",
-      "philosophy": "Warm, vertrauenswuerdig und bedacht zurueckhaltend. Anthropics Identitaet verbindet eine organische Erdton-Palette mit klarer Typografie, um sicherheitsorientierte KI-Forschung zu kommunizieren — zugaenglich und dennoch ernsthaft, menschlich und dennoch technisch."
+      "description": "Anthropic ist ein KI-Sicherheitsunternehmen, das sich auf den Bau zuverlässiger, interpretierbarer und steuerbarer KI-Systeme konzentriert. Gegründet von ehemaligen OpenAI-Forschern, entwickelt es Claude, einen KI-Assistenten, der mit Sicherheit als Kernprinzip konzipiert wurde.",
+      "philosophy": "Warm, vertrauenswürdig und bedacht zurückhaltend. Anthropics Identität verbindet eine organische Erdton-Palette mit klarer Typografie, um sicherheitsorientierte KI-Forschung zu kommunizieren — zugänglich und dennoch ernsthaft, menschlich und dennoch technisch."
     },
     "canva": {
       "description": "Canva ist eine Online-Design- und Veröffentlichungsplattform, die es jedem ermöglicht, alles zu gestalten und überall zu veröffentlichen. 2013 in Sydney, Australien, gegründet, hat sich Canva zu einem der weltweit beliebtesten Design-Tools entwickelt und macht professionelles Grafikdesign für Millionen von Nicht-Designern und Profis gleichermaßen zugänglich.",
@@ -148,56 +148,56 @@
       "philosophy": "Das Ziel von Coca-Cola ist es, die Welt zu erfrischen und einen Unterschied zu machen — eine Philosophie, die das schlichte Vergnügen eines eiskalten Getränks mit der Überzeugung verbindet, dass kleine Momente des Glücks kollektive globale Wirkung haben. Die Marke verdient ihren Ikonenstatus durch unerschütterliche Konsistenz, Freude und kulturelle Relevanz in jedem Markt, den sie berührt."
     },
     "apple": {
-      "description": "Apple entwirft, fertigt und vermarktet Unterhaltungselektronik, Software und Dienstleistungen. Vom Macintosh bis zum iPhone hat Apple konsequent ganze Produktkategorien durch seine Besessenheit fuer Design, Einfachheit und Benutzererfahrung neu definiert.",
-      "philosophy": "Einfachheit ist die hoechste Raffinesse. Apples monochromatische Identitaet entfernt alles Unnoetige und laesst den ikonischen angebissenen Apfel mit stiller Zuversicht sprechen — ein Symbol fuer Innovation, Premium-Qualitaet und menschenzentriertes Design."
+      "description": "Apple entwirft, fertigt und vermarktet Unterhaltungselektronik, Software und Dienstleistungen. Vom Macintosh bis zum iPhone hat Apple konsequent ganze Produktkategorien durch seine Besessenheit für Design, Einfachheit und Benutzererfahrung neu definiert.",
+      "philosophy": "Einfachheit ist die höchste Raffinesse. Apples monochromatische Identität entfernt alles Unnötige und lässt den ikonischen angebissenen Apfel mit stiller Zuversicht sprechen — ein Symbol für Innovation, Premium-Qualität und menschenzentriertes Design."
     },
     "wise": {
-      "description": "Wise ist ein globales Finanztechnologieunternehmen, das internationale Geldtransfers schnell, guenstig und transparent macht. Fruher als TransferWise bekannt, bedient es Millionen von Kunden, die Geld ueber Grenzen hinweg mit echten Wechselkursen senden.",
-      "philosophy": "Transparent, mutig und grenzenlos. Wises Identitaet nutzt ein markantes Gruen und ein Flaggenmotiv, um die Bewegung von Geld ueber Grenzen zu symbolisieren — geradliniges Design fuer ein Unternehmen, das glaubt, dass Finanzdienstleistungen fair und einfach sein sollten."
+      "description": "Wise ist ein globales Finanztechnologieunternehmen, das internationale Geldtransfers schnell, günstig und transparent macht. Früher als TransferWise bekannt, bedient es Millionen von Kunden, die Geld über Grenzen hinweg mit echten Wechselkursen senden.",
+      "philosophy": "Transparent, mutig und grenzenlos. Wises Identität nutzt ein markantes Grün und ein Flaggenmotiv, um die Bewegung von Geld über Grenzen zu symbolisieren — geradliniges Design für ein Unternehmen, das glaubt, dass Finanzdienstleistungen fair und einfach sein sollten."
     },
     "whatsapp": {
       "description": "WhatsApp ist eine weltweit allgegenwärtige Messaging-Plattform, die Text-, Sprach- und Videokommunikation über alle Geräte hinweg ermöglicht. Im Besitz von Meta, bedient sie über zwei Milliarden Nutzer weltweit mit Ende-zu-Ende-verschlüsselter Nachrichtenübermittlung und ist damit eines der meistgenutzten Kommunikationswerkzeuge der Welt.",
       "philosophy": "Einfach, zuverlässig und privat. WhatsApps Identität konzentriert sich auf Zugänglichkeit und Vertrauen — eine saubere, grüne Sprechblase, die direkte, sichere Kommunikation ohne Barrieren symbolisiert."
     },
     "figma": {
-      "description": "Figma ist ein kollaboratives Interface-Design-Tool, das es Teams ermoeglicht, Produkte gemeinsam in Echtzeit zu entwerfen, zu prototypen und zu entwickeln. 2023 von Adobe uebernommen, ist Figma zum Industriestandard fuer UI/UX-Design geworden.",
-      "philosophy": "Figmas Identitaet feiert die kollaborative und kreative Natur des Designs durch ein lebhaftes, mehrfarbiges Logo, das die vielfaeltigen Werkzeuge und Perspektiven repraesentiert, die im Designprozess zusammenkommen."
+      "description": "Figma ist ein kollaboratives Interface-Design-Tool, das es Teams ermöglicht, Produkte gemeinsam in Echtzeit zu entwerfen, zu prototypen und zu entwickeln. Als unabhängiges Unternehmen mit Sitz in San Francisco ist Figma zum Industriestandard für UI/UX-Design geworden.",
+      "philosophy": "Figmas Identität feiert die kollaborative und kreative Natur des Designs durch ein lebhaftes, mehrfarbiges Logo, das die vielfältigen Werkzeuge und Perspektiven repräsentiert, die im Designprozess zusammenkommen."
     },
     "google": {
-      "description": "Google ist ein globales Technologieunternehmen, das auf Internetdienste, Suche, Cloud Computing und Werbung spezialisiert ist. Bekannt fuer seine farbenfrohe, zugaengliche Identitaet, hat Google das moderne Web gepraegt und definiert kontinuierlich neu, wie Menschen auf Informationen zugreifen.",
-      "philosophy": "Googles vierfarbiges Wortzeichen spiegelt eine spielerische, zugaengliche Marke wider, die Einfachheit und Universalitaet schaetzt. Der Wechsel von Serifen- zu geometrischer Sans-Serif-Schrift 2015 signalisierte eine moderne, produktorientierte Identitaet fuer Bildschirme jeder Groesse."
+      "description": "Google ist ein globales Technologieunternehmen, das auf Internetdienste, Suche, Cloud Computing und Werbung spezialisiert ist. Bekannt für seine farbenfrohe, zugängliche Identität, hat Google das moderne Web geprägt und definiert kontinuierlich neu, wie Menschen auf Informationen zugreifen.",
+      "philosophy": "Googles vierfarbiges Wortzeichen spiegelt eine spielerische, zugängliche Marke wider, die Einfachheit und Universalität schätzt. Der Wechsel von Serifen- zu geometrischer Sans-Serif-Schrift 2015 signalisierte eine moderne, produktorientierte Identität für Bildschirme jeder Größe."
     },
     "notion": {
-      "description": "Notion ist ein All-in-One-Arbeitsbereich, der Notizen, Dokumente, Wikis, Projektmanagement und Datenbanken in einer einzigen vernetzten Plattform vereint. 2013 in San Francisco gegruendet, ermoeglicht Notion Teams und Einzelpersonen, ihre Arbeitsablaeufe mit modularen Bausteinen anzupassen.",
-      "philosophy": "Notions Identitaet verkoerpert das Prinzip, dass Werkzeuge so flexibel sein sollten wie die Menschen, die sie nutzen. Die minimalistische Schwarz-Weiss-Palette und das ikonische Seite-mit-N-Logozeichen spiegeln Einfachheit, Modularitaet und die Idee wider, dass die beste Software sich zuruecknimmt."
+      "description": "Notion ist ein All-in-One-Arbeitsbereich, der Notizen, Dokumente, Wikis, Projektmanagement und Datenbanken in einer einzigen vernetzten Plattform vereint. 2013 in San Francisco gegründet, ermöglicht Notion Teams und Einzelpersonen, ihre Arbeitsabläufe mit modularen Bausteinen anzupassen.",
+      "philosophy": "Notions Identität verkörpert das Prinzip, dass Werkzeuge so flexibel sein sollten wie die Menschen, die sie nutzen. Die minimalistische Schwarz-Weiß-Palette und das ikonische Seite-mit-N-Logozeichen spiegeln Einfachheit, Modularität und die Idee wider, dass die beste Software sich zurücknimmt."
     },
     "nvidia": {
-      "description": "NVIDIA ist ein globales Technologieunternehmen, das Grafikprozessoren (GPUs) und System-on-Chip-Einheiten entwickelt. Als Pionier des beschleunigten Rechnens treiben NVIDIAs Plattformen alles an — von Gaming und professioneller Visualisierung bis hin zu Rechenzentren und autonomen Fahrzeugen — und bilden das Rueckgrat der modernen kuenstlichen Intelligenz.",
-      "philosophy": "Mutig, technisch und zukunftsorientiert. NVIDIAs Identitaet wird durch das ikonische Augenzeichen verankert — ein Symbol fuer visuelles Computing und Vision — gepaart mit dem charakteristischen Gruen, das Energie, Innovation und die Kraft des beschleunigten Rechnens vermittelt."
+      "description": "NVIDIA ist ein globales Technologieunternehmen, das Grafikprozessoren (GPUs) und System-on-Chip-Einheiten entwickelt. Als Pionier des beschleunigten Rechnens treiben NVIDIAs Plattformen alles an — von Gaming und professioneller Visualisierung bis hin zu Rechenzentren und autonomen Fahrzeugen — und bilden das Rückgrat der modernen künstlichen Intelligenz.",
+      "philosophy": "Mutig, technisch und zukunftsorientiert. NVIDIAs Identität wird durch das ikonische Augenzeichen verankert — ein Symbol für visuelles Computing und Vision — gepaart mit dem charakteristischen Grün, das Energie, Innovation und die Kraft des beschleunigten Rechnens vermittelt."
     },
     "slack": {
-      "description": "Slack ist eine Unternehmenskommunikationsplattform, die Teams ueber Kanaele, Nachrichten und Integrationen zusammenbringt. 2021 von Salesforce uebernommen, ist Slack zum zentralen Knotenpunkt fuer die Zusammenarbeit am Arbeitsplatz geworden und verbindet Menschen mit den Werkzeugen und Informationen, die sie brauchen.",
-      "philosophy": "Slacks Identitaet nutzt eine lebhafte Vier-Farben-Palette — Blau, Gruen, Gelb und Rot — angeordnet in einem Hashtag-inspirierten Zeichen, das Verbindung und Kommunikation repraesentiert. Das Rebranding 2019 durch Pentagram vereinfachte das Logo zu einem kohaerenten, geometrischen Symbol, verankert durch das charakteristische Aubergine."
+      "description": "Slack ist eine Unternehmenskommunikationsplattform, die Teams über Kanäle, Nachrichten und Integrationen zusammenbringt. 2021 von Salesforce übernommen, ist Slack zum zentralen Knotenpunkt für die Zusammenarbeit am Arbeitsplatz geworden und verbindet Menschen mit den Werkzeugen und Informationen, die sie brauchen.",
+      "philosophy": "Slacks Identität nutzt eine lebhafte Vier-Farben-Palette — Blau, Grün, Gelb und Rot — angeordnet in einem Hashtag-inspirierten Zeichen, das Verbindung und Kommunikation repräsentiert. Das Rebranding 2019 durch Pentagram vereinfachte das Logo zu einem kohärenten, geometrischen Symbol, verankert durch das charakteristische Aubergine."
     },
     "shopify": {
       "description": "Shopify ist eine führende E-Commerce-Plattform, die Unternehmen jeder Größe ermöglicht, Online-Shops zu erstellen, Verkäufe zu verwalten und ihre Marken auszubauen. 2006 in Ottawa, Kanada, gegründet, unterstützt Shopify Millionen von Händlern in über 175 Ländern mit Tools für Zahlungen, Versand, Marketing und Kundenbindung.",
       "philosophy": "Shopifys Markenidentität konzentriert sich darauf, Unternehmertum zu stärken und Handel für alle zugänglich zu machen. Das ikonische Einkaufstaschen-Symbol und die lebhafte grüne Farbpalette spiegeln Wachstum und Möglichkeiten wider, während die klare Typografie sicherstellt, dass die Marke an jedem Händler-Touchpoint vertrauenswürdig und modern wirkt."
     },
     "stripe": {
-      "description": "Stripe ist eine Finanzinfrastruktur-Plattform, die Zahlungsverarbeitungs-APIs und Tools fuer Internetunternehmen jeder Groesse bereitstellt. 2010 gegruendet, unterstuetzt Stripe Millionen von Unternehmen weltweit.",
-      "philosophy": "Stripes Identitaet basiert auf entwicklerorientierter Klarheit und raffinierter Einfachheit. Die Marke verwendet eine markante lila Farbpalette und klare Typografie, um Vertrauen und Raffinesse in der Finanztechnologie zu vermitteln."
+      "description": "Stripe ist eine Finanzinfrastruktur-Plattform, die Zahlungsverarbeitungs-APIs und Tools für Internetunternehmen jeder Größe bereitstellt. 2010 gegründet, unterstützt Stripe Millionen von Unternehmen weltweit.",
+      "philosophy": "Stripes Identität basiert auf entwicklerorientierter Klarheit und raffinierter Einfachheit. Die Marke verwendet eine markante lila Farbpalette und klare Typografie, um Vertrauen und Raffinesse in der Finanztechnologie zu vermitteln."
     },
     "linear": {
-      "description": "Linear ist eine speziell entwickelte Projektmanagement-Plattform fuer moderne Softwareteams, die auf Geschwindigkeit, Klarheit und Handwerkskunst ausgelegt ist. 2019 gegruendet, optimiert Linear die Fehlerverfolgung, Sprint-Planung und Produktentwicklungs-Workflows fuer ueber 25.000 Unternehmen.",
-      "philosophy": "Linears Identitaet spiegelt unerbittlichen Fokus auf Geschwindigkeit, Handwerkskunst und Klarheit wider. Die Marke verwendet eine zurueckhaltende Indigo-Palette und ein klares geometrisches Logozeichen, um Praezision und Zielstrebigkeit zu vermitteln."
+      "description": "Linear ist eine speziell entwickelte Projektmanagement-Plattform für moderne Softwareteams, die auf Geschwindigkeit, Klarheit und Handwerkskunst ausgelegt ist. 2019 gegründet, optimiert Linear die Fehlerverfolgung, Sprint-Planung und Produktentwicklungs-Workflows für über 25.000 Unternehmen.",
+      "philosophy": "Linears Identität spiegelt unerbittlichen Fokus auf Geschwindigkeit, Handwerkskunst und Klarheit wider. Die Marke verwendet eine zurückhaltende Indigo-Palette und ein klares geometrisches Logozeichen, um Präzision und Zielstrebigkeit zu vermitteln."
     },
     "microsoft": {
-      "description": "Microsoft ist ein globaler Technologiekonzern, der Software, Hardware und Cloud-Dienste entwickelt, die Unternehmen und Verbraucher weltweit antreiben. Von Windows und Office ueber Azure bis Xbox — Microsofts Produkte erreichen Milliarden von Menschen und machen es zu einem der einflussreichsten Technologieunternehmen der Geschichte.",
-      "philosophy": "Microsofts vierfarbiges Fenster symbolisiert Offenheit und Vielfalt — vier verschiedene Scheiben, die sich zu einem Ganzen vereinen. Das klare, geometrische Raster und die neutrale Segoe-Schrift vermitteln Zuverlaessigkeit, Skalierbarkeit und die Entwicklung des Unternehmens vom Software-Giganten zur Cloud-first-, KI-gesteuerten Plattform."
+      "description": "Microsoft ist ein globaler Technologiekonzern, der Software, Hardware und Cloud-Dienste entwickelt, die Unternehmen und Verbraucher weltweit antreiben. Von Windows und Office über Azure bis Xbox — Microsofts Produkte erreichen Milliarden von Menschen und machen es zu einem der einflussreichsten Technologieunternehmen der Geschichte.",
+      "philosophy": "Microsofts vierfarbiges Fenster symbolisiert Offenheit und Vielfalt — vier verschiedene Scheiben, die sich zu einem Ganzen vereinen. Das klare, geometrische Raster und die neutrale Segoe-Schrift vermitteln Zuverlässigkeit, Skalierbarkeit und die Entwicklung des Unternehmens vom Software-Giganten zur Cloud-first-, KI-gesteuerten Plattform."
     },
     "vercel": {
-      "description": "Vercel ist eine Cloud-Plattform fuer Frontend-Entwickler, die es Teams ermoeglicht, Webanwendungen ohne Konfiguration zu erstellen, bereitzustellen und zu skalieren. 2015 gegruendet, ist Vercel der Schoepfer von Next.js und dem Geist-Designsystem.",
-      "philosophy": "Vercels Markenidentitaet konzentriert sich auf die Entwicklererfahrung und die Kraft des Frontends. Die markante Schwarz-Weiss-Palette und das ikonische Dreieckssymbol vermitteln Geschwindigkeit, Praezision und die Spitze der Webentwicklung."
+      "description": "Vercel ist eine Cloud-Plattform für Frontend-Entwickler, die es Teams ermöglicht, Webanwendungen ohne Konfiguration zu erstellen, bereitzustellen und zu skalieren. 2015 gegründet, ist Vercel der Schöpfer von Next.js und dem Geist-Designsystem.",
+      "philosophy": "Vercels Markenidentität konzentriert sich auf die Entwicklererfahrung und die Kraft des Frontends. Die markante Schwarz-Weiß-Palette und das ikonische Dreieckssymbol vermitteln Geschwindigkeit, Präzision und die Spitze der Webentwicklung."
     },
     "cursor": {
       "description": "Cursor ist ein KI-gestützter Code-Editor von Anysphere, der die Produktivität von Entwicklern durch intelligente Codevervollständigung, autonome Agenten und natürlichsprachliche Bearbeitung steigert. Er positioniert sich als die beste Art, mit KI zu programmieren.",
@@ -212,8 +212,8 @@
       "philosophy": "Offen, erweiterbar und entwicklerzentriert. Die Identität von VS Code basiert auf dem charakteristischen blauen Klammer-Symbol — ein sofort erkennbares Zeichen für Code-Bearbeitung."
     },
     "tesla": {
-      "description": "Tesla ist ein globales Unternehmen fuer Elektrofahrzeuge und saubere Energie, das Elektroautos, Energiespeichersysteme und Solarprodukte entwirft, herstellt und vertreibt. 2003 gegruendet, hat Tesla die Automobilindustrie mit seinem Fokus auf nachhaltige Energie und modernste Technologie neu definiert.",
-      "philosophy": "Teslas Identitaet dreht sich um das ikonische T-Emblem — einen stilisierten Querschnitt eines Elektromotor-Rotors — das technologiegetriebene Disruption statt traditionelles Automobilerbe signalisiert. Die minimale, geometrische Marke positioniert Tesla als Silicon-Valley-Technologieunternehmen, das nebenbei auch Autos baut."
+      "description": "Tesla ist ein globales Unternehmen für Elektrofahrzeuge und saubere Energie, das Elektroautos, Energiespeichersysteme und Solarprodukte entwirft, herstellt und vertreibt. 2003 gegründet, hat Tesla die Automobilindustrie mit seinem Fokus auf nachhaltige Energie und modernste Technologie neu definiert.",
+      "philosophy": "Teslas Identität dreht sich um das ikonische T-Emblem — einen stilisierten Querschnitt eines Elektromotor-Rotors — das technologiegetriebene Disruption statt traditionelles Automobilerbe signalisiert. Die minimale, geometrische Marke positioniert Tesla als Silicon-Valley-Technologieunternehmen, das nebenbei auch Autos baut."
     },
     "x": {
       "description": "X (ehemals Twitter) ist eine globale Social-Media-Plattform für Echtzeitkommunikation, Nachrichten und öffentlichen Diskurs. 2006 von Jack Dorsey, Noah Glass, Biz Stone und Evan Williams gegründet, wurde sie 2023 unter Elon Musks Eigentümerschaft in X umbenannt — als Signal für die Vision einer Super-App.",
@@ -248,12 +248,12 @@
       "philosophy": "Snapchats Identität basiert auf dem ikonischen Geist — einem verspielten, zugänglichen Symbol, das die vergängliche Natur der Plattform repräsentiert. Das kräftige Gelb und die minimalistische Geist-Silhouette schaffen sofortige Wiedererkennung und verkörpern Kreativität, Spontaneität und authentischen Selbstausdruck."
     },
     "pinterest": {
-      "description": "Pinterest ist eine visuelle Entdeckungs- und Lesezeichen-Plattform, auf der Nutzer kreative Ideen finden und speichern — von Rezepten und Wohnkultur bis hin zu Mode und DIY-Projekten. 2010 gegründet, bedient sie über 450 Millionen monatlich aktive Nutzer als personalisierte Inspirationsmaschine, angetrieben von visueller Suchtechnologie.",
+      "description": "Pinterest ist eine visuelle Entdeckungs- und Lesezeichen-Plattform, auf der Nutzer kreative Ideen finden und speichern — von Rezepten und Wohnkultur bis hin zu Mode und DIY-Projekten. 2010 gegründet, bedient sie über 550 Millionen monatlich aktive Nutzer als personalisierte Inspirationsmaschine, angetrieben von visueller Suchtechnologie.",
       "philosophy": "Pinterests Markenidentität konzentriert sich auf das markante rote Badge — ein stilisiertes 'P' in Pin-Form — das das Anheften und Speichern von Inspiration symbolisiert. Die maßgeschneiderte Schrift Pinterest Sans von Grilli Type verbindet Wärme mit moderner Klarheit und ist so gestaltet, dass angeheftete Bilder im Mittelpunkt stehen, während eine unverwechselbare, zugängliche Markenstimme beibehalten wird."
     },
     "zoom": {
       "description": "Zoom ist eine Kommunikationsplattform, die Teams mit Videokonferenzen, Chat, Telefonie und Kollaborationstools zusammenbringt. 2011 gegründet, wurde Zoom zur weltweit führenden Plattform für virtuelle Kommunikation und bedient Hunderte Millionen Nutzer in Unternehmen, Schulen und persönlichen Verbindungen.",
-      "philosophy": "Zooms Identität basiert auf Einfachheit und Verbindung, mit einem markanten blauen Schriftzug, der Vertrauen und Klarheit vermittelt. Das Rebranding 2022 führte die maßgeschneiderten Schriften Happy Display und Almaden Sans ein und entwickelte Zoom von einer Video-App zu einer einheitlichen Kommunikationsplattform."
+      "philosophy": "Zooms Identität basiert auf Einfachheit und Verbindung, mit einem markanten blauen Schriftzug, der Vertrauen und Klarheit vermittelt. Das Rebranding 2022 führte die maßgeschneiderten Schriften Happy Display und Almaden Sans ein und entwickelte Zoom von einer Video-App zu einer einheitlichen Kommunikationsplattform. 2024 strich das Unternehmen „Video” aus seinem offiziellen Namen — und heißt seither Zoom Communications Inc. — ein Ausdruck des KI-getriebenen, produktübergreifenden Anspruchs."
     },
     "uber": {
       "description": "Uber ist eine globale Technologieplattform, die Fahrgäste mit Fahrern verbindet und Fahrdienstleistungen, Essenslieferungen, Gütertransport und Mikromobilität anbietet. 2009 gegründet, ist Uber in über 70 Ländern tätig und hat den städtischen Verkehr grundlegend verändert.",
@@ -292,7 +292,7 @@
     "audio": "Audio",
     "podcasts": "Podcasts",
     "playlists": "Playlists",
-    "artificial-intelligence": "Kuenstliche Intelligenz",
+    "artificial-intelligence": "Künstliche Intelligenz",
     "machine-learning": "Maschinelles Lernen",
     "research": "Forschung",
     "chatgpt": "ChatGPT",
@@ -303,12 +303,12 @@
     "software": "Software",
     "design": "Design",
     "innovation": "Innovation",
-    "ecosystem": "Oekosystem",
+    "ecosystem": "Ökosystem",
     "payments": "Zahlungen",
     "money-transfer": "Geldtransfer",
     "banking": "Bankwesen",
     "international": "International",
-    "currency": "Waehrung",
+    "currency": "Währung",
     "api": "API",
     "developer-tools": "Entwicklerwerkzeuge",
     "financial-infrastructure": "Finanzinfrastruktur",
@@ -328,7 +328,7 @@
     "frontend": "Frontend",
     "project-management": "Projektmanagement",
     "issue-tracking": "Fehlerverfolgung",
-    "productivity": "Produktivitaet",
+    "productivity": "Produktivität",
     "design-tools": "Design-Tools",
     "notes": "Notizen",
     "workspace": "Arbeitsbereich",
@@ -428,7 +428,7 @@
     "red": "Rot",
     "orange": "Orange",
     "yellow": "Gelb",
-    "green": "Grun",
+    "green": "Grün",
     "blue": "Blau",
     "purple": "Lila",
     "pink": "Rosa",
@@ -450,6 +450,6 @@
     "loading": "Wird geladen",
     "notFound": "Nicht gefunden",
     "notFoundDescription": "Die Seite, die Sie suchen, existiert nicht.",
-    "backToHome": "Zurueck zur Startseite"
+    "backToHome": "Zurück zur Startseite"
   }
 }

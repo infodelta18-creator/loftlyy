@@ -1,28 +1,28 @@
 {
   "metadata": {
     "siteName": "Loftlyy",
-    "siteDescription": "Descubre y explora identidades de marca, logotipos, colores y sistemas de diseno"
+    "siteDescription": "Descubre y explora identidades de marca, logotipos, colores y sistemas de diseño"
   },
   "home": {
     "headline": "Descubre identidades de marca reales.",
     "subheadline": "Una base de datos en constante crecimiento de identidad de marca.",
     "popular": "Populares",
-    "explore": "Mas Marcas",
+    "explore": "Más Marcas",
     "browseAll": "Usa la barra lateral para buscar y filtrar {count} marcas",
     "startExploring": "Comenzar a explorar",
     "cta": "Comenzar a explorar",
-    "sponsor": "Apoyanos"
+    "sponsor": "Apóyanos"
   },
   "nav": {
     "search": "Buscar marcas",
     "allBrands": "Todas las marcas",
-    "categories": "Categorias",
+    "categories": "Categorías",
     "filters": "Filtros",
     "clearFilters": "Limpiar todo",
     "industry": "Industria",
     "styleTags": "Estilo",
     "colorFamily": "Color",
-    "typographyStyle": "Tipografia",
+    "typographyStyle": "Tipografía",
     "noBrandsFound": "No se encontraron marcas",
     "language": "Idioma",
     "theme": "Tema"
@@ -30,7 +30,7 @@
   "brand": {
     "overview": "Resumen",
     "colors": "Colores",
-    "typography": "Tipografia",
+    "typography": "Tipografía",
     "logoVariations": "Variaciones del logotipo",
     "assets": "Recursos",
     "visitWebsite": "Visitar sitio web",
@@ -43,13 +43,13 @@
     "brandStory": "Historia de la marca",
     "founded": "Fundada",
     "headquarters": "Sede",
-    "identityDesigner": "Disenador de identidad",
-    "lastRebranded": "Ultimo rediseno",
-    "philosophy": "Filosofia de diseno",
+    "identityDesigner": "Diseñador de identidad",
+    "lastRebranded": "Último rediseño",
+    "philosophy": "Filosofía de diseño",
     "similarBrands": "Marcas similares",
     "copyFontName": "Copiar nombre de fuente",
     "fontCopied": "Copiado!",
-    "legalNotice": "Todas las marcas comerciales, logotipos, activos de marca y elementos de identidad visual mostrados en esta pagina son propiedad exclusiva de {brandName} y sus afiliados. Se muestran aqui con fines informativos y educativos unicamente.",
+    "legalNotice": "Todas las marcas comerciales, logotipos, activos de marca y elementos de identidad visual mostrados en esta página son propiedad exclusiva de {brandName} y sus afiliados. Se muestran aquí con fines informativos y educativos únicamente.",
     "viewGuidelines": "Ver directrices oficiales de marca",
     "brandGuidelines": "Directrices de uso de marca",
     "dos": "Permitido",
@@ -60,42 +60,42 @@
   },
   "category": {
     "title": "Marcas de {category}",
-    "description": "Explora {count} marcas en la categoria {category}",
-    "browseAll": "Ver todas las categorias",
-    "noBrandsInCategory": "No se encontraron marcas en esta categoria."
+    "description": "Explora {count} marcas en la categoría {category}",
+    "browseAll": "Ver todas las categorías",
+    "noBrandsInCategory": "No se encontraron marcas en esta categoría."
   },
   "seo": {
-    "brandTitle": "Identidad de marca y sistema de diseno de {brandName} | Loftlyy",
-    "brandDescription": "Explora la identidad de marca de {brandName} incluyendo logotipo, colores, tipografia y sistema de diseno. {brandName} es una empresa de {industry}.",
+    "brandTitle": "Identidad de marca y sistema de diseño de {brandName} | Loftlyy",
+    "brandDescription": "Explora la identidad de marca de {brandName} incluyendo logotipo, colores, tipografía y sistema de diseño. {brandName} es una empresa de {industry}.",
     "categoryTitle": "Identidades de marca {category} | Loftlyy",
-    "categoryDescription": "Descubre {count} identidades de marca {category}. Explora logotipos, paletas de colores y sistemas de diseno de las mejores empresas de {category}.",
+    "categoryDescription": "Descubre {count} identidades de marca {category}. Explora logotipos, paletas de colores y sistemas de diseño de las mejores empresas de {category}.",
     "tagTitle": "Marcas de {tag} | Loftlyy",
-    "tagDescription": "Descubre {count} marcas etiquetadas con {tag}. Explora logotipos, paletas de colores y sistemas de diseno.",
+    "tagDescription": "Descubre {count} marcas etiquetadas con {tag}. Explora logotipos, paletas de colores y sistemas de diseño.",
     "colorTitle": "Marcas {color} | Loftlyy",
     "colorDescription": "Descubre {count} marcas que usan {color} en su identidad de marca.",
-    "typographyTitle": "Marcas con tipografia {style} | Loftlyy",
-    "typographyDescription": "Descubre {count} marcas que usan tipografia {style} en su identidad de marca.",
-    "faqColorQuestion": "Que colores usa {brandName}?",
+    "typographyTitle": "Marcas con tipografía {style} | Loftlyy",
+    "typographyDescription": "Descubre {count} marcas que usan tipografía {style} en su identidad de marca.",
+    "faqColorQuestion": "¿Qué colores usa {brandName}?",
     "faqColorAnswer": "{brandName} usa {colors} en su identidad de marca.",
-    "faqFontQuestion": "Que fuente usa {brandName}?",
+    "faqFontQuestion": "¿Qué fuente usa {brandName}?",
     "faqFontAnswer": "{brandName} usa {fonts} en su identidad de marca.",
-    "faqIndustryQuestion": "En que industria esta {brandName}?",
+    "faqIndustryQuestion": "¿En qué industria está {brandName}?",
     "faqIndustryAnswer": "{brandName} opera en la industria de {industry}.",
-    "faqFoundedQuestion": "Cuando se fundo {brandName}?",
+    "faqFoundedQuestion": "¿Cuándo se fundó {brandName}?",
     "faqFoundedAnswer": "{brandName} fue fundada en {year}."
   },
   "categories": {
     "fintech": "Fintech",
     "saas": "SaaS",
     "social-media": "Redes sociales",
-    "e-commerce": "Comercio electronico",
-    "music": "Musica",
+    "e-commerce": "Comercio electrónico",
+    "music": "Música",
     "ai": "IA",
-    "technology": "Tecnologia",
+    "technology": "Tecnología",
     "minimal-logos": "Logotipos minimalistas",
     "gradient-brands": "Marcas con degradado",
-    "wordmark-logos": "Logotipos tipograficos",
-    "geometric-logos": "Logotipos geometricos",
+    "wordmark-logos": "Logotipos tipográficos",
+    "geometric-logos": "Logotipos geométricos",
     "travel": "Viajes",
     "automotive": "Automotriz",
     "entertainment": "Entretenimiento",
@@ -104,8 +104,8 @@
   },
   "brands": {
     "abode": {
-      "description": "Abode es una aplicacion movil social que transforma tu telefono en un espacio de encuentro multijugador. Creada por Look Engineering, Inc., permite a los amigos conectarse a traves de widgets interactivos compartidos llamados magnets, que posibilitan juegos colaborativos, listas de reproduccion, encuestas y actividades en tiempo real.",
-      "philosophy": "La identidad de Abode se basa en la idea de que los telefonos deben unir a las personas, no separarlas. El logotipo geometrico y audaz en azul distintivo ancla un sistema visual vibrante y ludico que celebra la conexion, la espontaneidad y los momentos compartidos."
+      "description": "Abode es una aplicación móvil social que transforma tu teléfono en un espacio de encuentro multijugador. Creada por Look Engineering, Inc., permite a los amigos conectarse a través de widgets interactivos compartidos llamados magnets, que posibilitan juegos colaborativos, listas de reproducción, encuestas y actividades en tiempo real.",
+      "philosophy": "La identidad de Abode se basa en la idea de que los teléfonos deben unir a las personas, no separarlas. El logotipo geométrico y audaz en azul distintivo ancla un sistema visual vibrante y lúdico que celebra la conexión, la espontaneidad y los momentos compartidos."
     },
     "adidas": {
       "description": "adidas es una marca global de ropa deportiva con sede en Herzogenaurach, Alemania. Fundada en 1949 por Adolf Dassler, adidas diseña y vende calzado, ropa y accesorios para el deporte y el uso cotidiano. Conocida por las icónicas Tres Rayas y la marca de rendimiento en forma de montaña, adidas se ha convertido en una de las marcas deportivas más reconocidas del mundo.",
@@ -116,28 +116,28 @@
       "philosophy": "Audaz, creativa y empoderadora. La icónica 'A' roja de Adobe simboliza la cúspide creativa — una marca geométrica que representa las herramientas y la plataforma que empoderan a millones de creadores en todo el mundo. La identidad limpia y moderna refleja la evolución de Adobe desde pionera de la autoedición hasta plataforma creativa cloud-first."
     },
     "airbnb": {
-      "description": "Airbnb es un mercado global en linea para alojamiento, experiencias y actividades turisticas. Fundada en 2008 en San Francisco, conecta a millones de anfitriones y viajeros en todo el mundo, transformando la forma en que las personas encuentran alojamientos unicos y experimentan la cultura local.",
-      "philosophy": "La identidad de Airbnb esta anclada por el Belo — un simbolo de pertenencia que representa personas, lugares, amor y la propia Airbnb. El calido color Rausch y la tipografia personalizada Cereal crean una marca amigable y accesible que invita a la conexion y la exploracion entre culturas."
+      "description": "Airbnb es un mercado global en línea para alojamiento, experiencias y actividades turísticas. Fundada en 2008 en San Francisco, conecta a millones de anfitriones y viajeros en todo el mundo, transformando la forma en que las personas encuentran alojamientos únicos y experimentan la cultura local.",
+      "philosophy": "La identidad de Airbnb está anclada por el Bélo — un símbolo de pertenencia que representa personas, lugares, amor y la propia Airbnb. El cálido color Rausch y la tipografía personalizada Cereal crean una marca amigable y accesible que invita a la conexión y la exploración entre culturas."
     },
     "amazon": {
-      "description": "Amazon es el mayor minorista en linea y empresa de computacion en la nube del mundo, que ofrece desde comercio electronico y streaming digital hasta inteligencia artificial y logistica. Fundada en 1994 por Jeff Bezos, Amazon se ha convertido en una de las empresas mas valiosas del mundo.",
-      "philosophy": "La identidad de Amazon esta anclada por la iconica flecha sonrisa — una linea curva de la A a la Z que representa la promesa de la empresa de entregar todo, con una sonrisa. El calido naranja y la tipografia limpia transmiten accesibilidad y obsesion por el cliente a gran escala."
+      "description": "Amazon es el mayor minorista en línea y empresa de computación en la nube del mundo, que ofrece desde comercio electrónico y streaming digital hasta inteligencia artificial y logística. Fundada en 1994 por Jeff Bezos, Amazon se ha convertido en una de las empresas más valiosas del mundo.",
+      "philosophy": "La identidad de Amazon está anclada por la icónica flecha sonrisa — una línea curva de la A a la Z que representa la promesa de la empresa de entregar todo, con una sonrisa. El cálido naranja y la tipografía limpia transmiten accesibilidad y obsesión por el cliente a gran escala."
     },
     "discord": {
-      "description": "Discord es una plataforma de comunicacion por voz, video y texto disenada para crear comunidades. Originalmente creada para jugadores, se ha expandido para servir a comunidades de todo tipo, desde grupos de estudio hasta colectivos artisticos y proyectos de codigo abierto. La mision de Discord es crear un espacio donde todos puedan encontrar su lugar.",
-      "philosophy": "Jugueton, accesible e inclusivo. La identidad de Discord equilibra la energia juvenil con la claridad necesaria para una plataforma de comunicacion, utilizando la iconica mascota Clyde y el Blurple como pilares de reconocimiento."
+      "description": "Discord es una plataforma de comunicación por voz, video y texto diseñada para crear comunidades. Originalmente creada para jugadores, se ha expandido para servir a comunidades de todo tipo, desde grupos de estudio hasta colectivos artísticos y proyectos de código abierto. La misión de Discord es crear un espacio donde todos puedan encontrar su lugar.",
+      "philosophy": "Juguetón, accesible e inclusivo. La identidad de Discord equilibra la energía juvenil con la claridad necesaria para una plataforma de comunicación, utilizando la icónica mascota Clyde y el Blurple como pilares de reconocimiento."
     },
     "spotify": {
-      "description": "Spotify es la plataforma de streaming de audio mas grande del mundo, que ofrece millones de canciones, podcasts y audiolibros. Fundada en Suecia, transformo la forma en que las personas descubren y escuchan musica con listas de reproduccion personalizadas y recomendaciones algoritmicas.",
-      "philosophy": "Audaz, vibrante y accesible. La identidad de Spotify utiliza el iconico verde y un logotipo geometrico limpio para representar la alegria del descubrimiento musical, haciendo que el contenido de audio se sienta personal y universalmente atractivo."
+      "description": "Spotify es la plataforma de streaming de audio más grande del mundo, que ofrece millones de canciones, podcasts y audiolibros. Fundada en Suecia, transformó la forma en que las personas descubren y escuchan música con listas de reproducción personalizadas y recomendaciones algorítmicas.",
+      "philosophy": "Audaz, vibrante y accesible. La identidad de Spotify utiliza el icónico verde y un logotipo geométrico limpio para representar la alegría del descubrimiento musical, haciendo que el contenido de audio se sienta personal y universalmente atractivo."
     },
     "openai": {
-      "description": "OpenAI es una empresa de investigacion y despliegue de IA dedicada a garantizar que la inteligencia artificial general beneficie a toda la humanidad. Conocida por crear GPT y ChatGPT, lidera el desarrollo de modelos de lenguaje grandes y sistemas de IA.",
-      "philosophy": "Minimalista, autoritario y visionario. La identidad de OpenAI comunica confianza y sofisticacion tecnologica a traves de un diseno contenido, utilizando un marcado blanco y negro con acentos verdes intencionados que senalan innovacion sin intimidacion."
+      "description": "OpenAI es una empresa de investigación y despliegue de IA dedicada a garantizar que la inteligencia artificial general beneficie a toda la humanidad. Conocida por crear GPT y ChatGPT, lidera el desarrollo de modelos de lenguaje grandes y sistemas de IA.",
+      "philosophy": "Minimalista, autoritario y visionario. El rediseño de OpenAI en 2025 introdujo OpenAI Sans, una tipografía exclusiva de ABC Dinamo, junto a una paleta de grises y azules que evoca apertura y posibilidad — transmitiendo sofisticación tecnológica con una sensación genuinamente humana."
     },
     "anthropic": {
-      "description": "Anthropic es una empresa de seguridad en IA enfocada en construir sistemas de IA confiables, interpretables y controlables. Fundada por ex investigadores de OpenAI, desarrolla Claude, un asistente de IA disenado con la seguridad como principio fundamental.",
-      "philosophy": "Calida, confiable y cuidadosamente contenida. La identidad de Anthropic combina una paleta de tonos tierra con tipografia limpia para comunicar investigacion de IA centrada en la seguridad — accesible pero seria, humana pero tecnica."
+      "description": "Anthropic es una empresa de seguridad en IA enfocada en construir sistemas de IA confiables, interpretables y controlables. Fundada por ex investigadores de OpenAI, desarrolla Claude, un asistente de IA diseñado con la seguridad como principio fundamental.",
+      "philosophy": "Cálida, confiable y cuidadosamente contenida. La identidad de Anthropic combina una paleta de tonos tierra con tipografía limpia para comunicar investigación de IA centrada en la seguridad — accesible pero seria, humana pero técnica."
     },
     "canva": {
       "description": "Canva es una plataforma de diseño y publicación en línea que permite a todos diseñar cualquier cosa y publicar en cualquier lugar. Fundada en 2013 en Sídney, Australia, Canva se ha convertido en una de las herramientas de diseño más populares del mundo, haciendo que el diseño gráfico de calidad profesional sea accesible para millones de no diseñadores y profesionales por igual.",
@@ -148,36 +148,36 @@
       "philosophy": "El propósito de Coca-Cola es refrescar el mundo y marcar la diferencia — una filosofía que fusiona el simple placer de una bebida bien fría con la creencia de que los pequeños momentos de felicidad tienen un impacto global colectivo. La marca gana su estatus icónico a través de una consistencia inquebrantable, alegría y relevancia cultural en cada mercado que toca."
     },
     "apple": {
-      "description": "Apple disena, fabrica y comercializa electronica de consumo, software y servicios. Desde el Macintosh hasta el iPhone, Apple ha redefinido consistentemente categorias enteras de productos a traves de su obsesion por el diseno, la simplicidad y la experiencia del usuario.",
-      "philosophy": "La simplicidad es la maxima sofisticacion. La identidad monocromatica de Apple elimina todo lo innecesario, dejando que la iconica manzana mordida hable con confianza silenciosa — un simbolo de innovacion, calidad premium y diseno centrado en las personas."
+      "description": "Apple diseña, fabrica y comercializa electrónica de consumo, software y servicios. Desde el Macintosh hasta el iPhone, Apple ha redefinido consistentemente categorías enteras de productos a través de su obsesión por el diseño, la simplicidad y la experiencia del usuario.",
+      "philosophy": "La simplicidad es la máxima sofisticación. La identidad monocromática de Apple elimina todo lo innecesario, dejando que la icónica manzana mordida hable con confianza silenciosa — un símbolo de innovación, calidad premium y diseño centrado en las personas."
     },
     "wise": {
-      "description": "Wise es una empresa global de tecnologia financiera que hace que las transferencias internacionales de dinero sean rapidas, baratas y transparentes. Anteriormente conocida como TransferWise, atiende a millones de clientes que mueven dinero a traves de fronteras con tipos de cambio reales.",
-      "philosophy": "Transparente, audaz y sin fronteras. La identidad de Wise utiliza un verde distintivo y un motivo de bandera para simbolizar el movimiento de dinero a traves de las fronteras — diseno directo para una empresa que cree que los servicios financieros deben ser justos y simples."
+      "description": "Wise es una empresa global de tecnología financiera que hace que las transferencias internacionales de dinero sean rápidas, baratas y transparentes. Anteriormente conocida como TransferWise, atiende a millones de clientes que mueven dinero a través de fronteras con tipos de cambio reales.",
+      "philosophy": "Transparente, audaz y sin fronteras. La identidad de Wise utiliza un verde distintivo y un motivo de bandera para simbolizar el movimiento de dinero a través de las fronteras — diseño directo para una empresa que cree que los servicios financieros deben ser justos y simples."
     },
     "whatsapp": {
       "description": "WhatsApp es una plataforma de mensajería mundialmente ubicua que permite la comunicación por texto, voz y video en todos los dispositivos. Propiedad de Meta, sirve a más de dos mil millones de usuarios en todo el mundo con mensajería cifrada de extremo a extremo, convirtiéndola en una de las herramientas de comunicación más utilizadas del planeta.",
       "philosophy": "Simple, confiable y privada. La identidad de WhatsApp se centra en la accesibilidad y la confianza — una burbuja de diálogo verde y limpia que simboliza la comunicación directa y segura sin barreras."
     },
     "figma": {
-      "description": "Figma es una herramienta de diseno de interfaces colaborativa que permite a los equipos disenar, prototipar y desarrollar productos juntos en tiempo real. Adquirida por Adobe en 2023, Figma se ha convertido en el estandar de la industria para el diseno UI/UX.",
-      "philosophy": "La identidad de Figma celebra la naturaleza colaborativa y creativa del diseno a traves de un logotipo vibrante y multicolor que representa las diversas herramientas y perspectivas que confluyen en el proceso de diseno."
+      "description": "Figma es una herramienta de diseño de interfaces colaborativa que permite a los equipos diseñar, prototipar y desarrollar productos juntos en tiempo real. Empresa independiente con sede en San Francisco, Figma se ha convertido en el estándar de la industria para el diseño UI/UX.",
+      "philosophy": "La identidad de Figma celebra la naturaleza colaborativa y creativa del diseño a través de un logotipo vibrante y multicolor que representa las diversas herramientas y perspectivas que confluyen en el proceso de diseño."
     },
     "google": {
-      "description": "Google es una empresa tecnologica global especializada en servicios de internet, busqueda, computacion en la nube y publicidad. Conocida por su identidad colorida y accesible, Google ha moldeado la web moderna y redefine continuamente como las personas acceden e interactuan con la informacion.",
-      "philosophy": "El logotipo de cuatro colores de Google refleja una marca ludica y accesible que valora la simplicidad y la universalidad. El cambio de serif a sans-serif geometrico en 2015 senalo una identidad moderna y centrada en el producto, disenada para pantallas de todos los tamanos."
+      "description": "Google es una empresa tecnológica global especializada en servicios de internet, búsqueda, computación en la nube y publicidad. Conocida por su identidad colorida y accesible, Google ha moldeado la web moderna y redefine continuamente cómo las personas acceden e interactúan con la información.",
+      "philosophy": "El logotipo de cuatro colores de Google refleja una marca lúdica y accesible que valora la simplicidad y la universalidad. El cambio de serif a sans-serif geométrico en 2015 señaló una identidad moderna y centrada en el producto, diseñada para pantallas de todos los tamaños."
     },
     "notion": {
-      "description": "Notion es un espacio de trabajo todo en uno que combina notas, documentos, wikis, gestion de proyectos y bases de datos en una sola plataforma conectada. Fundada en 2013 en San Francisco, Notion permite a equipos e individuos personalizar sus flujos de trabajo usando bloques modulares.",
-      "philosophy": "La identidad de Notion encarna el principio de que las herramientas deben ser tan flexibles como las personas que las usan. La paleta minimalista en blanco y negro y el iconico logotipo de pagina con N reflejan simplicidad, modularidad y la idea de que el mejor software se aparta de tu camino."
+      "description": "Notion es un espacio de trabajo todo en uno que combina notas, documentos, wikis, gestión de proyectos y bases de datos en una sola plataforma conectada. Fundada en 2013 en San Francisco, Notion permite a equipos e individuos personalizar sus flujos de trabajo usando bloques modulares.",
+      "philosophy": "La identidad de Notion encarna el principio de que las herramientas deben ser tan flexibles como las personas que las usan. La paleta minimalista en blanco y negro y el icónico logotipo de página con N reflejan simplicidad, modularidad y la idea de que el mejor software se aparta de tu camino."
     },
     "nvidia": {
-      "description": "NVIDIA es una empresa tecnologica global que disena unidades de procesamiento grafico (GPU) y unidades de sistema en chip. Pionera en computacion acelerada, las plataformas de NVIDIA impulsan desde videojuegos y visualizacion profesional hasta centros de datos y vehiculos autonomos, convirtiendose en la columna vertebral de la inteligencia artificial moderna.",
-      "philosophy": "Audaz, tecnica y orientada al futuro. La identidad de NVIDIA esta anclada por la iconica marca del ojo — un simbolo de computacion visual y vision — acompanada del verde distintivo que transmite energia, innovacion y el poder de la computacion acelerada."
+      "description": "NVIDIA es una empresa tecnológica global que diseña unidades de procesamiento gráfico (GPU) y unidades de sistema en chip. Pionera en computación acelerada, las plataformas de NVIDIA impulsan desde videojuegos y visualización profesional hasta centros de datos y vehículos autónomos, convirtiéndose en la columna vertebral de la inteligencia artificial moderna.",
+      "philosophy": "Audaz, técnica y orientada al futuro. La identidad de NVIDIA está anclada por la icónica marca del ojo — un símbolo de computación visual y visión — acompañada del verde distintivo que transmite energía, innovación y el poder de la computación acelerada."
     },
     "slack": {
-      "description": "Slack es una plataforma de comunicacion empresarial que conecta equipos a traves de canales, mensajeria e integraciones. Adquirida por Salesforce en 2021, Slack se ha convertido en el centro de la colaboracion en el lugar de trabajo, conectando a las personas con las herramientas y la informacion que necesitan.",
-      "philosophy": "La identidad de Slack utiliza una vibrante paleta de cuatro colores — azul, verde, amarillo y rojo — dispuestos en una marca inspirada en el hashtag que representa conexion y comunicacion. El rediseno de 2019 por Pentagram simplifico el logotipo en un simbolo geometrico cohesivo anclado por la firma berenjena."
+      "description": "Slack es una plataforma de comunicación empresarial que conecta equipos a través de canales, mensajería e integraciones. Adquirida por Salesforce en 2021, Slack se ha convertido en el centro de la colaboración en el lugar de trabajo, conectando a las personas con las herramientas y la información que necesitan.",
+      "philosophy": "La identidad de Slack utiliza una vibrante paleta de cuatro colores — azul, verde, amarillo y rojo — dispuestos en una marca inspirada en el hashtag que representa conexión y comunicación. El rediseño de 2019 por Pentagram simplificó el logotipo en un símbolo geométrico cohesivo anclado por la firma berenjena."
     },
     "snapchat": {
       "description": "Snapchat es una aplicación de mensajería multimedia conocida por su contenido efímero de fotos y videos, lentes de realidad aumentada y el formato Stories. Desarrollada por Snap Inc., fue pionera en el contenido que desaparece y se ha convertido en una de las plataformas sociales más populares entre los jóvenes de todo el mundo.",
@@ -188,20 +188,20 @@
       "philosophy": "La identidad de marca de Shopify se centra en empoderar el emprendimiento y hacer el comercio accesible para todos. El icónico símbolo de la bolsa de compras y la vibrante paleta verde reflejan crecimiento y posibilidad, mientras que la tipografía limpia garantiza que la marca se sienta confiable y moderna en cada punto de contacto con los comerciantes."
     },
     "stripe": {
-      "description": "Stripe es una plataforma de infraestructura financiera que proporciona APIs de procesamiento de pagos y herramientas para negocios en internet de todos los tamanos. Fundada en 2010, Stripe impulsa millones de empresas en todo el mundo.",
-      "philosophy": "La identidad de Stripe se basa en la claridad orientada al desarrollador y la simplicidad refinada. La marca utiliza una paleta purpura distintiva y tipografia limpia para transmitir confianza y sofisticacion en tecnologia financiera."
+      "description": "Stripe es una plataforma de infraestructura financiera que proporciona APIs de procesamiento de pagos y herramientas para negocios en internet de todos los tamaños. Fundada en 2010, Stripe impulsa millones de empresas en todo el mundo.",
+      "philosophy": "La identidad de Stripe se basa en la claridad orientada al desarrollador y la simplicidad refinada. La marca utiliza una paleta púrpura distintiva y tipografía limpia para transmitir confianza y sofisticación en tecnología financiera."
     },
     "linear": {
-      "description": "Linear es una plataforma de gestion de proyectos disenada para equipos modernos de software, centrada en la velocidad, claridad y artesania. Fundada en 2019, Linear optimiza el seguimiento de incidencias, la planificacion de sprints y los flujos de desarrollo de productos para mas de 25,000 empresas.",
-      "philosophy": "La identidad de Linear refleja un enfoque implacable en la velocidad, la artesania y la claridad. La marca utiliza una paleta indigo contenida y un logotipo geometrico limpio para transmitir precision y proposito."
+      "description": "Linear es una plataforma de gestión de proyectos diseñada para equipos modernos de software, centrada en la velocidad, claridad y artesanía. Fundada en 2019, Linear optimiza el seguimiento de incidencias, la planificación de sprints y los flujos de desarrollo de productos para más de 25.000 empresas.",
+      "philosophy": "La identidad de Linear refleja un enfoque implacable en la velocidad, la artesanía y la claridad. La marca utiliza una paleta índigo contenida y un logotipo geométrico limpio para transmitir precisión y propósito."
     },
     "microsoft": {
-      "description": "Microsoft es una corporacion tecnologica global que desarrolla software, hardware y servicios en la nube que impulsan empresas y consumidores en todo el mundo. Desde Windows y Office hasta Azure y Xbox, los productos de Microsoft llegan a miles de millones de personas, convirtiendola en una de las empresas tecnologicas mas influyentes de la historia.",
-      "philosophy": "La ventana de cuatro colores de Microsoft simboliza apertura y diversidad: cuatro paneles distintos que se unen como uno solo. La cuadricula geometrica limpia y la tipografia neutra Segoe comunican fiabilidad, escala y la evolucion de la empresa de gigante del software a plataforma cloud-first impulsada por IA."
+      "description": "Microsoft es una corporación tecnológica global que desarrolla software, hardware y servicios en la nube que impulsan empresas y consumidores en todo el mundo. Desde Windows y Office hasta Azure y Xbox, los productos de Microsoft llegan a miles de millones de personas, convirtiéndola en una de las empresas tecnológicas más influyentes de la historia.",
+      "philosophy": "La ventana de cuatro colores de Microsoft simboliza apertura y diversidad: cuatro paneles distintos que se unen como uno solo. La cuadrícula geométrica limpia y la tipografía neutra Segoe comunican fiabilidad, escala y la evolución de la empresa de gigante del software a plataforma cloud-first impulsada por IA."
     },
     "vercel": {
-      "description": "Vercel es una plataforma en la nube para desarrolladores frontend que permite a los equipos construir, desplegar y escalar aplicaciones web sin configuracion. Fundada en 2015, Vercel es la creadora de Next.js y el sistema de diseno Geist.",
-      "philosophy": "La identidad de marca de Vercel se centra en la experiencia del desarrollador y el poder del frontend. Su paleta en blanco y negro y su iconico simbolo triangular comunican velocidad, precision y la vanguardia del desarrollo web."
+      "description": "Vercel es una plataforma en la nube para desarrolladores frontend que permite a los equipos construir, desplegar y escalar aplicaciones web sin configuración. Fundada en 2015, Vercel es la creadora de Next.js y el sistema de diseño Geist.",
+      "philosophy": "La identidad de marca de Vercel se centra en la experiencia del desarrollador y el poder del frontend. Su paleta en blanco y negro y su icónico símbolo triangular comunican velocidad, precisión y la vanguardia del desarrollo web."
     },
     "cursor": {
       "description": "Cursor es un editor de código impulsado por IA, creado por Anysphere, que mejora la productividad de los desarrolladores mediante autocompletado inteligente, agentes autónomos y edición en lenguaje natural. Se posiciona como la mejor forma de programar con IA.",
@@ -220,8 +220,8 @@
       "philosophy": "Abierto, extensible y orientado al desarrollador. La identidad de VS Code se centra en su icónico icono de corchete azul, un símbolo de edición de código que es reconocible al instante."
     },
     "tesla": {
-      "description": "Tesla es una empresa global de vehiculos electricos y energia limpia que disena, fabrica y vende autos electricos, sistemas de almacenamiento de energia y productos solares. Fundada en 2003, Tesla ha redefinido la industria automotriz con su enfoque en energia sostenible y tecnologia de vanguardia.",
-      "philosophy": "La identidad de Tesla se centra en su iconico emblema T — una seccion transversal estilizada del rotor de un motor electrico — que senala disrupcion impulsada por la tecnologia sobre la herencia automotriz tradicional. La marca minimalista y geometrica posiciona a Tesla como una empresa tecnologica de Silicon Valley que ademas fabrica autos."
+      "description": "Tesla es una empresa global de vehículos eléctricos y energía limpia que diseña, fabrica y vende autos eléctricos, sistemas de almacenamiento de energía y productos solares. Fundada en 2003, Tesla ha redefinido la industria automotriz con su enfoque en energía sostenible y tecnología de vanguardia.",
+      "philosophy": "La identidad de Tesla se centra en su icónico emblema T — una sección transversal estilizada del rotor de un motor eléctrico — que señala disrupción impulsada por la tecnología sobre la herencia automotriz tradicional. La marca minimalista y geométrica posiciona a Tesla como una empresa tecnológica de Silicon Valley que además fabrica autos."
     },
     "x": {
       "description": "X (anteriormente Twitter) es una plataforma global de redes sociales para conversaciones en tiempo real, noticias y discurso público. Fundada en 2006 por Jack Dorsey, Noah Glass, Biz Stone y Evan Williams, fue renombrada a X en 2023 bajo la propiedad de Elon Musk, señalando una visión de convertirse en una super app.",
@@ -248,12 +248,12 @@
       "philosophy": "Audaz, enérgica y orientada a la comunidad. La identidad de Twitch se ancla en el icónico Glitch — una marca que combina bocadillo de diálogo y controlador de juegos renderizada en un inconfundible púrpura que señala entretenimiento en vivo e interactivo."
     },
     "pinterest": {
-      "description": "Pinterest es una plataforma de descubrimiento visual y marcadores donde los usuarios encuentran y guardan ideas creativas — desde recetas y decoración del hogar hasta moda y proyectos de bricolaje. Fundada en 2010, sirve a más de 450 millones de usuarios activos mensuales como un motor de inspiración personalizado impulsado por tecnología de búsqueda visual.",
+      "description": "Pinterest es una plataforma de descubrimiento visual y marcadores donde los usuarios encuentran y guardan ideas creativas — desde recetas y decoración del hogar hasta moda y proyectos de bricolaje. Fundada en 2010, sirve a más de 550 millones de usuarios activos mensuales como un motor de inspiración personalizado impulsado por tecnología de búsqueda visual.",
       "philosophy": "La identidad de marca de Pinterest se centra en su distintiva insignia roja — una 'P' estilizada en forma de pin — que simboliza el acto de fijar y guardar inspiración. La tipografía personalizada Pinterest Sans de Grilli Type equilibra calidez con claridad moderna, diseñada para que las imágenes fijadas destaquen mientras mantiene una voz de marca distintiva y accesible."
     },
     "zoom": {
       "description": "Zoom es una plataforma de comunicaciones que reúne equipos con videollamadas, chat, teléfono y herramientas de colaboración. Fundada en 2011, Zoom se convirtió en la plataforma de referencia mundial para la comunicación virtual, sirviendo a cientos de millones de usuarios en empresas, escuelas y conexiones personales.",
-      "philosophy": "La identidad de Zoom se basa en la simplicidad y la conexión, utilizando un logotipo tipográfico azul audaz que transmite confianza y claridad. El rediseño de 2022 introdujo las tipografías personalizadas Happy Display y Almaden Sans, transformando Zoom de una aplicación de video en una plataforma de comunicaciones unificada."
+      "philosophy": "La identidad de Zoom se basa en la simplicidad y la conexión, utilizando un logotipo tipográfico azul audaz que transmite confianza y claridad. El rediseño de 2022 introdujo las tipografías personalizadas Happy Display y Almaden Sans, transformando Zoom de una aplicación de video en una plataforma de comunicaciones unificada. En 2024, la empresa eliminó «Video» de su nombre legal — pasando a llamarse Zoom Communications Inc. — reflejando su ambición de ser una compañía multiplataforma impulsada por la IA."
     },
     "uber": {
       "description": "Uber es una plataforma tecnológica global que conecta pasajeros con conductores, ofreciendo servicios de transporte, entrega de comida, transporte de carga y micromovilidad. Fundada en 2009, Uber opera en más de 70 países y ha transformado fundamentalmente el transporte urbano.",
@@ -281,28 +281,28 @@
     }
   },
   "tags": {
-    "communication": "Comunicacion",
+    "communication": "Comunicación",
     "community": "Comunidad",
     "gaming": "Videojuegos",
     "voice-chat": "Chat de voz",
-    "messaging": "Mensajeria",
-    "music": "Musica",
+    "messaging": "Mensajería",
+    "music": "Música",
     "streaming": "Streaming",
-    "search": "Busqueda",
+    "search": "Búsqueda",
     "audio": "Audio",
     "podcasts": "Podcasts",
-    "playlists": "Listas de reproduccion",
+    "playlists": "Listas de reproducción",
     "artificial-intelligence": "Inteligencia Artificial",
-    "machine-learning": "Aprendizaje Automatico",
-    "research": "Investigacion",
+    "machine-learning": "Aprendizaje Automático",
+    "research": "Investigación",
     "chatgpt": "ChatGPT",
     "gpt": "GPT",
     "claude": "Claude",
     "ai-safety": "Seguridad de IA",
     "hardware": "Hardware",
     "software": "Software",
-    "design": "Diseno",
-    "innovation": "Innovacion",
+    "design": "Diseño",
+    "innovation": "Innovación",
     "ecosystem": "Ecosistema",
     "payments": "Pagos",
     "money-transfer": "Transferencias",
@@ -313,10 +313,10 @@
     "developer-tools": "Herramientas para Desarrolladores",
     "financial-infrastructure": "Infraestructura Financiera",
     "advertising": "Publicidad",
-    "e-commerce": "Comercio Electronico",
-    "collaboration": "Colaboracion",
+    "e-commerce": "Comercio Electrónico",
+    "collaboration": "Colaboración",
     "prototyping": "Prototipado",
-    "ui-design": "Diseno UI",
+    "ui-design": "Diseño UI",
     "travel": "Viajes",
     "hospitality": "Hospitalidad",
     "marketplace": "Mercado",
@@ -326,10 +326,10 @@
     "hosting": "Alojamiento web",
     "ai": "IA",
     "frontend": "Frontend",
-    "project-management": "Gestion de Proyectos",
+    "project-management": "Gestión de Proyectos",
     "issue-tracking": "Seguimiento de Incidencias",
     "productivity": "Productividad",
-    "design-tools": "Herramientas de Diseno",
+    "design-tools": "Herramientas de Diseño",
     "notes": "Notas",
     "workspace": "Espacio de Trabajo",
     "code-editor": "Editor de Código",
@@ -342,17 +342,17 @@
     "real-time": "Tiempo Real",
     "news": "Noticias",
     "social-network": "Red Social",
-    "electric-vehicles": "Vehiculos Electricos",
-    "clean-energy": "Energia Limpia",
+    "electric-vehicles": "Vehículos Eléctricos",
+    "clean-energy": "Energía Limpia",
     "social-media": "Redes Sociales",
     "virtual-reality": "Realidad Virtual",
     "augmented-reality": "Realidad Aumentada",
     "metaverse": "Metaverso",
-    "logistics": "Logistica",
+    "logistics": "Logística",
     "live-streaming": "Transmisión en Vivo",
     "gpu": "GPU",
     "data-center": "Centro de Datos",
-    "autonomous-vehicles": "Vehiculos Autonomos",
+    "autonomous-vehicles": "Vehículos Autónomos",
     "retail": "Retail",
     "platform": "Plataforma",
     "entertainment": "Entretenimiento",
@@ -420,9 +420,9 @@
     "noBrands": "No se encontraron marcas con este color."
   },
   "typographyPage": {
-    "title": "Marcas con tipografia {style}",
+    "title": "Marcas con tipografía {style}",
     "description": "Explora {count} marcas que usan fuentes {style} en su identidad",
-    "noBrands": "No se encontraron marcas con este estilo tipografico."
+    "noBrands": "No se encontraron marcas con este estilo tipográfico."
   },
   "colorFamilies": {
     "red": "Rojo",
@@ -441,15 +441,15 @@
     "script": "Script"
   },
   "browseBy": {
-    "relatedCategories": "Categorias relacionadas",
+    "relatedCategories": "Categorías relacionadas",
     "relatedTags": "Etiquetas relacionadas",
     "relatedColors": "Colores relacionados",
-    "relatedTypography": "Tipografia relacionada"
+    "relatedTypography": "Tipografía relacionada"
   },
   "common": {
     "loading": "Cargando",
     "notFound": "No encontrado",
-    "notFoundDescription": "La pagina que buscas no existe.",
+    "notFoundDescription": "La página que buscas no existe.",
     "backToHome": "Volver al inicio"
   }
 }
