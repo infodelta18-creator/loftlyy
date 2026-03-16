@@ -86,8 +86,8 @@ export const notra: Brand = {
     format: "svg",
   },
   dateAdded: "2026-03-16",
-  founded: 2026,
-  headquarters: "Riedlingen, Germany",
+  founded: 2025,
+  headquarters: "Stuttgart, Germany",
   designer: "Dominik Koch",
   philosophy:
     "Notra's identity blends editorial warmth with technical precision. The hand-drawn quill mark evokes creative authorship, while the soft lavender accent and serif-meets-sans typography pairing signal a product that bridges the gap between engineering workflow and polished content output.",
