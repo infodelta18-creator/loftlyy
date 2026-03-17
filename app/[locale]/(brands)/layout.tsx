@@ -1,11 +1,14 @@
 import { BrandSidebar } from "@/components/brand-sidebar"
 import { MobileSidebarToggle } from "@/components/mobile-sidebar-toggle"
+import { getAllSidebarBrands } from "@/data/brands"
 
 export default function BrandsLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const sidebarBrands = getAllSidebarBrands()
+
   return (
     <div className="flex h-dvh bg-white dark:bg-neutral-950">
       <a
@@ -17,7 +20,7 @@ export default function BrandsLayout({
       <BrandSidebar />
       <div className="flex flex-1 flex-col overflow-hidden border-l border-neutral-200 dark:border-neutral-800/50">
         <header className="flex shrink-0 items-center p-2 lg:hidden">
-          <MobileSidebarToggle />
+          <MobileSidebarToggle brands={sidebarBrands} />
         </header>
         <main id="main-content" className="flex-1 overflow-y-auto">
           {children}

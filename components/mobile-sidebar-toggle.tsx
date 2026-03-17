@@ -1,10 +1,12 @@
 "use client"
 
-import { Suspense, useState, useRef, useEffect, useCallback } from "react"
-import Image from "next/image"
-import dynamic from "next/dynamic"
 import { IconMenu2, IconX, IconHeart } from "@tabler/icons-react"
-import { getAllBrands } from "@/data/brands"
+import dynamic from "next/dynamic"
+import Image from "next/image"
+import { Suspense, useState, useRef, useEffect, useCallback } from "react"
+
+import type { SidebarBrand } from "@/lib/types"
+
 import { LocaleSwitcher } from "./locale-switcher"
 
 const BrandSidebarSearch = dynamic(
@@ -12,9 +14,8 @@ const BrandSidebarSearch = dynamic(
   { ssr: false }
 )
 
-export function MobileSidebarToggle() {
+export function MobileSidebarToggle({ brands }: { brands: SidebarBrand[] }) {
   const [open, setOpen] = useState(false)
-  const brands = getAllBrands()
   const triggerRef = useRef<HTMLButtonElement>(null)
   const sidebarRef = useRef<HTMLElement>(null)
 

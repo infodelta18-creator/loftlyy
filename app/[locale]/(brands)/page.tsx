@@ -3,7 +3,8 @@ import { useTranslations } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { IconArrowRight } from "@tabler/icons-react"
 import { Link } from "@/i18n/navigation"
-import { getAllBrands } from "@/data/brands"
+import { getAllSidebarBrands } from "@/data/brands"
+import type { SidebarBrand } from "@/lib/types"
 
 export async function generateMetadata({
   params,
@@ -27,12 +28,11 @@ export default async function BrandsPage({
   const { locale } = await params
   setRequestLocale(locale)
 
-  return <BrandsLanding />
+  return <BrandsLanding brands={getAllSidebarBrands()} />
 }
 
-function BrandsLanding() {
+function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
   const t = useTranslations()
-  const brands = getAllBrands()
 
   return (
     <div className="flex min-h-full w-full flex-col items-center justify-center px-4 py-12 sm:px-6">

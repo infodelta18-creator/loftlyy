@@ -1,4 +1,10 @@
-import type { Brand, SimilarBrandCard } from "./types"
+import type { Brand, SidebarBrand, SimilarBrandCard } from "./types"
+
+/** Fields shared by Brand and SidebarBrand that filtering needs */
+type FilterableBrand = Pick<Brand, "name" | "industry" | "tags"> & {
+  colors: { hex: string }[]
+  typography: { category?: string }[]
+}
 
 export interface FilterState {
   industries: string[]
@@ -45,12 +51,14 @@ export function hexToColorFamily(hex: string): string {
   return "pink"
 }
 
-export function getBrandColorFamilies(brand: Brand): string[] {
+export function getBrandColorFamilies(brand: {
+  colors: { hex: string }[]
+}): string[] {
   const families = new Set(brand.colors.map((c) => hexToColorFamily(c.hex)))
   return Array.from(families)
 }
 
-export function getAvailableFilters(brands: Brand[]) {
+export function getAvailableFilters(brands: FilterableBrand[]) {
   const industries = new Set<string>()
   const tags = new Set<string>()
   const colorFamilies = new Set<string>()
@@ -73,11 +81,11 @@ export function getAvailableFilters(brands: Brand[]) {
   }
 }
 
-export function filterBrands(
-  brands: Brand[],
+export function filterBrands<T extends FilterableBrand>(
+  brands: T[],
   filters: FilterState,
   query: string
-): Brand[] {
+): T[] {
   return brands.filter((brand) => {
     if (query) {
       const q = query.toLowerCase()

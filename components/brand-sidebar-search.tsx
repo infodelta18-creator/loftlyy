@@ -16,7 +16,7 @@ import { cn } from "@/lib/utils"
 import { filterBrands } from "@/lib/filters"
 import { useBrandFilters } from "@/hooks/use-brand-filters"
 import { CommandMenu } from "@/components/command-menu"
-import type { Brand } from "@/lib/types"
+import type { SidebarBrand } from "@/lib/types"
 
 function getVerticalMask(canScrollUp: boolean, canScrollDown: boolean) {
   if (canScrollUp && canScrollDown) {
@@ -35,7 +35,7 @@ export function BrandSidebarSearch({
   brands,
   onNavigate,
 }: {
-  brands: Brand[]
+  brands: SidebarBrand[]
   onNavigate?: () => void
 }) {
   const [query] = useState("")

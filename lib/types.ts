@@ -62,6 +62,18 @@ export interface SimilarBrandCard {
   colors: { hex: string }[]
 }
 
+/** Slim brand data for sidebar + command menu (avoids serializing full Brand to client) */
+export interface SidebarBrand {
+  slug: string
+  name: string
+  industry: string
+  thumbnail: { src: string; width: number; height: number; label: string }
+  thumbnailDark?: { src: string; width: number; height: number }
+  tags?: string[]
+  colors: { hex: string }[]
+  typography: { category?: string }[]
+}
+
 export interface Category {
   slug: string
   type: "industry" | "style" | "attribute"

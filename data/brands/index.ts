@@ -1,6 +1,7 @@
-import type { Brand } from "@/lib/types"
+import type { Brand, SidebarBrand } from "@/lib/types"
 import { assetUrl } from "@/lib/assets"
 import { hexToColorFamily } from "@/lib/filters"
+import { twentyFirst } from "./21st"
 import { abode } from "./abode"
 import { adidas } from "./adidas"
 import { adobe } from "./adobe"
@@ -33,8 +34,12 @@ import { netflix } from "./netflix"
 import { nike } from "./nike"
 import { openai } from "./openai"
 import { planetscale } from "./planetscale"
+import { polar } from "./polar"
+import { railway } from "./railway"
+import { raycast } from "./raycast"
 import { pinterest } from "./pinterest"
 import { reddit } from "./reddit"
+import { scira } from "./scira"
 import { spotify } from "./spotify"
 import { shopify } from "./shopify"
 import { slack } from "./slack"
@@ -52,9 +57,11 @@ import { x } from "./x"
 import { youtube } from "./youtube"
 import { mcdonalds } from "./mcdonalds"
 import { starbucks } from "./starbucks"
+import { tailwindCss } from "./tailwind-css"
 import { zoom } from "./zoom"
 
 const rawBrands: Brand[] = [
+  twentyFirst,
   abode,
   adidas,
   adobe,
@@ -86,13 +93,18 @@ const rawBrands: Brand[] = [
   notion,
   openai,
   planetscale,
+  polar,
+  railway,
+  raycast,
   pinterest,
   reddit,
+  scira,
   spotify,
   shopify,
   slack,
   snapchat,
   stripe,
+  tailwindCss,
   tesla,
   tiktok,
   twitch,
@@ -148,6 +160,32 @@ export const brandsBySlug: Record<string, Brand> = Object.fromEntries(
 
 export function getAllBrands() {
   return brands
+}
+
+const sidebarBrands: SidebarBrand[] = brands.map((b) => ({
+  slug: b.slug,
+  name: b.name,
+  industry: b.industry,
+  thumbnail: {
+    src: b.thumbnail.src,
+    width: b.thumbnail.width,
+    height: b.thumbnail.height,
+    label: b.thumbnail.label,
+  },
+  thumbnailDark: b.thumbnailDark
+    ? {
+        src: b.thumbnailDark.src,
+        width: b.thumbnailDark.width,
+        height: b.thumbnailDark.height,
+      }
+    : undefined,
+  tags: b.tags,
+  colors: b.colors.map((c) => ({ hex: c.hex })),
+  typography: b.typography.map((t) => ({ category: t.category })),
+}))
+
+export function getAllSidebarBrands() {
+  return sidebarBrands
 }
 
 export function getBrandBySlug(slug: string) {

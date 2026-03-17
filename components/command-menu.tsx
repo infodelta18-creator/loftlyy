@@ -23,10 +23,10 @@ import { useRouter, usePathname } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
 import { cn } from "@/lib/utils"
 import { getAvailableFilters, type FilterState } from "@/lib/filters"
-import type { Brand } from "@/lib/types"
+import type { SidebarBrand } from "@/lib/types"
 
 interface CommandMenuProps {
-  brands: Brand[]
+  brands: SidebarBrand[]
   filters: FilterState
   onToggleFilter: (dimension: keyof FilterState, value: string) => void
   onClearFilters: () => void
