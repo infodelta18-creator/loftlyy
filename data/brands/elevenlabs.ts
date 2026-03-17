@@ -4,7 +4,7 @@ export const elevenlabs: Brand = {
   slug: "elevenlabs",
   name: "ElevenLabs",
   description:
-    "ElevenLabs is an AI audio research company specializing in realistic text-to-speech synthesis, voice cloning, and conversational AI. Founded in 2022, the platform enables creators and developers to generate lifelike speech with natural emotion and intonation across 32 languages.",
+    "ElevenLabs is an AI audio research company specializing in realistic text-to-speech synthesis, voice cloning, and conversational AI. Founded in 2022, the platform enables creators and developers to generate lifelike speech with natural emotion and intonation across 74 languages.",
   url: "https://elevenlabs.io",
   industry: "ai",
   categories: ["ai", "technology", "saas", "minimal-logos"],
@@ -105,7 +105,7 @@ export const elevenlabs: Brand = {
   founded: 2022,
   headquarters: "New York City, New York",
   designer: "Basement Studio",
-  lastRebranded: "2024",
+  lastRebranded: "2025",
   philosophy:
     "ElevenLabs' brand identity is built on stark minimalism — a black-and-white palette that signals its research-driven foundation. The iconic double vertical lines abstract the number eleven while evoking a pause button, bridging the gap between audio technology and visual identity with elegant simplicity.",
   legal: {
