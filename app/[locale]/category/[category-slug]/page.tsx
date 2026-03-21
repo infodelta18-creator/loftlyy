@@ -36,15 +36,20 @@ export async function generateMetadata({
   const categoryName = tCat(categorySlug)
 
   const title = t("categoryTitle", { category: categoryName })
-  const description = t("categoryDescription", {
+  const brandNames = brands
+    .slice(0, 4)
+    .map((b) => b.name)
+    .join(", ")
+  const description = `${t("categoryDescription", {
     count: brands.length,
     category: categoryName,
-  })
+  })} ${t("featuredBrands", { brands: brandNames })}`
 
   return {
     title,
     description,
     alternates: {
+      canonical: `/${locale}/category/${categorySlug}`,
       languages: Object.fromEntries(
         routing.locales.map((l) => [l, `/${l}/category/${categorySlug}`])
       ),

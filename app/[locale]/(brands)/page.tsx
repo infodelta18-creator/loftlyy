@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { IconArrowRight } from "@tabler/icons-react"
 import { Link } from "@/i18n/navigation"
+import { routing } from "@/i18n/routing"
 import { getAllSidebarBrands } from "@/data/brands"
 import type { SidebarBrand } from "@/lib/types"
 
@@ -17,6 +18,10 @@ export async function generateMetadata({
   return {
     title: `${t("siteName")} — ${t("siteDescription")}`,
     description: `${t("siteDescription")}. Brand identity of brands for inspiration.`,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: Object.fromEntries(routing.locales.map((l) => [l, `/${l}`])),
+    },
   }
 }
 

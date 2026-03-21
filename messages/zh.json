@@ -75,6 +75,7 @@
     "colorDescription": "发现{count}个在品牌标识中使用{color}的品牌。",
     "typographyTitle": "{style}字体品牌 | Loftlyy",
     "typographyDescription": "发现{count}个在品牌标识中使用{style}字体的品牌。",
+    "featuredBrands": "包括{brands}。",
     "faqColorQuestion": "{brandName}使用什么颜色？",
     "faqColorAnswer": "{brandName}在品牌标识中使用{colors}。",
     "faqFontQuestion": "{brandName}使用什么字体？",

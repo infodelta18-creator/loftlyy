@@ -75,6 +75,7 @@
     "colorDescription": "Descubre {count} marcas que usan {color} en su identidad de marca.",
     "typographyTitle": "Marcas con tipografía {style} | Loftlyy",
     "typographyDescription": "Descubre {count} marcas que usan tipografía {style} en su identidad de marca.",
+    "featuredBrands": "Incluyendo {brands}.",
     "faqColorQuestion": "¿Qué colores usa {brandName}?",
     "faqColorAnswer": "{brandName} usa {colors} en su identidad de marca.",
     "faqFontQuestion": "¿Qué fuente usa {brandName}?",

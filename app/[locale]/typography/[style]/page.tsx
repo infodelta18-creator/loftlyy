@@ -41,15 +41,21 @@ export async function generateMetadata({
 
   const styleName = tStyles(style)
   const title = t("typographyTitle", { style: styleName })
-  const description = t("typographyDescription", {
+  const brandNames = brands
+    .slice(0, 4)
+    .map((b) => b.name)
+    .join(", ")
+  const description = `${t("typographyDescription", {
     count: brands.length,
     style: styleName,
-  })
+  })} ${t("featuredBrands", { brands: brandNames })}`
 
   return {
     title,
     description,
+    ...(brands.length <= 2 && { robots: { index: false, follow: true } }),
     alternates: {
+      canonical: `/${locale}/typography/${style}`,
       languages: Object.fromEntries(
         routing.locales.map((l) => [l, `/${l}/typography/${style}`])
       ),

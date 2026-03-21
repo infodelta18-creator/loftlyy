@@ -39,15 +39,21 @@ export async function generateMetadata({
 
   const tagName = tTags(tag)
   const title = t("tagTitle", { tag: tagName })
-  const description = t("tagDescription", {
+  const brandNames = brands
+    .slice(0, 4)
+    .map((b) => b.name)
+    .join(", ")
+  const description = `${t("tagDescription", {
     count: brands.length,
     tag: tagName,
-  })
+  })} ${t("featuredBrands", { brands: brandNames })}`
 
   return {
     title,
     description,
+    ...(brands.length <= 2 && { robots: { index: false, follow: true } }),
     alternates: {
+      canonical: `/${locale}/tag/${tag}`,
       languages: Object.fromEntries(
         routing.locales.map((l) => [l, `/${l}/tag/${tag}`])
       ),

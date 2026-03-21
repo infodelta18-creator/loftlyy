@@ -49,15 +49,20 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "seo" })
 
   const title = t("brandTitle", { brandName: brand.name })
-  const description = t("brandDescription", {
-    brandName: brand.name,
-    industry: brand.industry,
-  })
+  const description = brand.description
+    ? brand.description.length > 155
+      ? `${brand.description.slice(0, 155).trimEnd()}...`
+      : brand.description
+    : t("brandDescription", {
+        brandName: brand.name,
+        industry: brand.industry,
+      })
 
   return {
     title,
     description,
     alternates: {
+      canonical: `/${locale}/${slug}`,
       languages: Object.fromEntries(
         routing.locales.map((l) => [l, `/${l}/${slug}`])
       ),

@@ -75,6 +75,7 @@
     "colorDescription": "{color}を使用する{count}ブランドを発見。",
     "typographyTitle": "{style}タイポグラフィブランド | Loftlyy",
     "typographyDescription": "{style}タイポグラフィを使用する{count}ブランドを発見。",
+    "featuredBrands": "{brands}など。",
     "faqColorQuestion": "{brandName}はどんな色を使っていますか？",
     "faqColorAnswer": "{brandName}はブランドアイデンティティに{colors}を使用しています。",
     "faqFontQuestion": "{brandName}はどんなフォントを使っていますか？",

@@ -76,12 +76,12 @@ const config = {
       }
     }
 
-    // Tag pages
+    // Tag pages — lower priority to focus crawl budget on brand pages
     if (path.includes("/tag/")) {
       return {
         loc: path,
-        changefreq: "daily",
-        priority: 0.5,
+        changefreq: "weekly",
+        priority: 0.3,
         lastmod: new Date().toISOString(),
       }
     }
@@ -91,7 +91,7 @@ const config = {
       return {
         loc: path,
         changefreq: "weekly",
-        priority: 0.4,
+        priority: 0.2,
         lastmod: new Date().toISOString(),
       }
     }
@@ -101,7 +101,7 @@ const config = {
       return {
         loc: path,
         changefreq: "weekly",
-        priority: 0.4,
+        priority: 0.2,
         lastmod: new Date().toISOString(),
       }
     }
