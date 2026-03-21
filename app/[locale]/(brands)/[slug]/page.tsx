@@ -8,15 +8,15 @@ import { BrandColors } from "@/components/brand-colors"
 import { BrandTypography } from "@/components/brand-typography"
 import {
   BrandStructuredData,
+  BrandPageStructuredData,
   BreadcrumbStructuredData,
   FAQStructuredData,
 } from "@/components/structured-data"
 import { BrandStory } from "@/components/brand-story"
 import { getSimilarBrandCards, getBrandColorFamilies } from "@/lib/filters"
-import type { Brand } from "@/lib/types"
 import { BrowseBySection } from "@/components/browse-by-section"
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://loftlyy.com"
+import { BrandSeoSummary } from "@/components/brand-seo-summary"
+import { BASE_URL, composeBrandSeoContent, toAbsoluteUrl } from "@/lib/seo"
 
 const BrandAssets = dynamic(() =>
   import("@/components/brand-assets").then((m) => ({ default: m.BrandAssets }))
@@ -46,21 +46,21 @@ export async function generateMetadata({
   const brand = getBrandBySlug(slug)
   if (!brand) return {}
 
-  const t = await getTranslations({ locale, namespace: "seo" })
-
-  const title = t("brandTitle", { brandName: brand.name })
-  const description = brand.description
-    ? brand.description.length > 155
-      ? `${brand.description.slice(0, 155).trimEnd()}...`
-      : brand.description
-    : t("brandDescription", {
-        brandName: brand.name,
-        industry: brand.industry,
-      })
+  const [tSeo, tCategories] = await Promise.all([
+    getTranslations({ locale, namespace: "seo" }),
+    getTranslations({ locale, namespace: "categories" }),
+  ])
+  const seo = composeBrandSeoContent({
+    brand,
+    locale,
+    tSeo,
+    translatedIndustry: tCategories(brand.industry),
+  })
 
   return {
-    title,
-    description,
+    title: seo.title,
+    description: seo.description,
+    keywords: seo.keywords,
     alternates: {
       canonical: `/${locale}/${slug}`,
       languages: Object.fromEntries(
@@ -68,67 +68,20 @@ export async function generateMetadata({
       ),
     },
     openGraph: {
-      title,
-      description,
+      title: seo.title,
+      description: seo.description,
       type: "website",
       locale,
+      url: `${BASE_URL}/${locale}/${slug}`,
+      images: seo.imageUrls.map((url) => ({ url })),
     },
     twitter: {
-      card: "summary_large_image",
-      title,
-      description,
+      card: seo.imageUrls.length > 0 ? "summary_large_image" : "summary",
+      title: seo.title,
+      description: seo.description,
+      images: seo.imageUrls,
     },
   }
-}
-
-function generateFAQ(
-  brand: Brand,
-  t: (key: string, values?: Record<string, string | number>) => string
-) {
-  const questions: { question: string; answer: string }[] = []
-
-  if (brand.colors.length > 0) {
-    const colorNames = brand.colors
-      .map((c) => `${c.name} (${c.hex})`)
-      .join(", ")
-    questions.push({
-      question: t("faqColorQuestion", { brandName: brand.name }),
-      answer: t("faqColorAnswer", {
-        brandName: brand.name,
-        colors: colorNames,
-      }),
-    })
-  }
-
-  if (brand.typography.length > 0) {
-    const fontNames = brand.typography
-      .map((f) => `${f.name} (${f.role})`)
-      .join(", ")
-    questions.push({
-      question: t("faqFontQuestion", { brandName: brand.name }),
-      answer: t("faqFontAnswer", { brandName: brand.name, fonts: fontNames }),
-    })
-  }
-
-  questions.push({
-    question: t("faqIndustryQuestion", { brandName: brand.name }),
-    answer: t("faqIndustryAnswer", {
-      brandName: brand.name,
-      industry: brand.industry,
-    }),
-  })
-
-  if (brand.founded) {
-    questions.push({
-      question: t("faqFoundedQuestion", { brandName: brand.name }),
-      answer: t("faqFoundedAnswer", {
-        brandName: brand.name,
-        year: brand.founded,
-      }),
-    })
-  }
-
-  return questions
 }
 
 export default async function BrandPage({
@@ -152,7 +105,6 @@ export default async function BrandPage({
       getTranslations({ locale, namespace: "brands" }),
       getTranslations({ locale, namespace: "categories" }),
     ])
-  const faqQuestions = generateFAQ(brand, tSeo)
 
   const colorFamilies = getBrandColorFamilies(brand)
   const typoStyles = [
@@ -195,21 +147,44 @@ export default async function BrandPage({
     }
   }
 
+  const seo = composeBrandSeoContent({
+    brand,
+    locale,
+    tSeo,
+    translatedIndustry,
+  })
+
   return (
     <article className="flex flex-col gap-10 px-8 py-7">
       <BrandStructuredData brand={brand} />
+      <BrandPageStructuredData
+        name={seo.title}
+        description={seo.description}
+        url={`${BASE_URL}/${locale}/${brand.slug}`}
+        locale={locale}
+        about={{
+          name: brand.name,
+          url: brand.url,
+          logo: toAbsoluteUrl(brand.thumbnail.src),
+        }}
+        images={brand.assets.length > 0 ? seo.imageUrls : []}
+      />
       <BreadcrumbStructuredData
         items={[
           { name: "Home", url: `${BASE_URL}/${locale}` },
           { name: brand.name, url: `${BASE_URL}/${locale}/${brand.slug}` },
         ]}
       />
-      <FAQStructuredData questions={faqQuestions} />
+      <FAQStructuredData questions={seo.faqQuestions} />
       <BrandHeader
         brand={brand}
         translatedDescription={translatedDescription}
         translatedIndustry={translatedIndustry}
         translatedTags={translatedTags}
+      />
+      <BrandSeoSummary
+        title={tSeo("summaryTitle")}
+        paragraphs={seo.summaryParagraphs}
       />
       <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-6">
         <BrandStory brand={brand} translatedPhilosophy={translatedPhilosophy} />

@@ -1,4 +1,5 @@
 import type { Brand } from "@/lib/types"
+import { toAbsoluteUrl } from "@/lib/seo"
 
 export function SiteStructuredData({
   siteName,
@@ -31,9 +32,52 @@ export function BrandStructuredData({ brand }: { brand: Brand }) {
     "@type": "Organization",
     name: brand.name,
     url: brand.url,
-    logo: brand.assets[0]?.src,
+    logo: toAbsoluteUrl(brand.thumbnail.src),
     description: brand.description,
     industry: brand.industry,
+    sameAs: brand.url ? [brand.url] : undefined,
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  )
+}
+
+export function BrandPageStructuredData({
+  name,
+  description,
+  url,
+  locale,
+  about,
+  images,
+}: {
+  name: string
+  description: string
+  url: string
+  locale: string
+  about: { name: string; url?: string; logo?: string }
+  images: string[]
+}) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name,
+    description,
+    url,
+    inLanguage: locale,
+    about: {
+      "@type": "Organization",
+      name: about.name,
+      url: about.url,
+      logo: about.logo,
+    },
+    ...(images.length > 0 && {
+      image: images,
+      primaryImageOfPage: images[0],
+    }),
   }
 
   return (
