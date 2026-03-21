@@ -585,7 +585,8 @@
     "sans-serif": "산세리프",
     "serif": "세리프",
     "monospace": "모노스페이스",
-    "script": "스크립트"
+    "script": "스크립트",
+    "display": "디스플레이"
   },
   "browseBy": {
     "relatedCategories": "관련 카테고리",

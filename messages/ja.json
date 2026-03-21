@@ -589,7 +589,8 @@
     "sans-serif": "サンセリフ",
     "serif": "セリフ",
     "monospace": "モノスペース",
-    "script": "スクリプト"
+    "script": "スクリプト",
+    "display": "ディスプレイ"
   },
   "browseBy": {
     "relatedCategories": "関連カテゴリ",

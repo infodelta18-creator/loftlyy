@@ -585,7 +585,8 @@
     "sans-serif": "无衬线体",
     "serif": "衬线体",
     "monospace": "等宽体",
-    "script": "手写体"
+    "script": "手写体",
+    "display": "展示体"
   },
   "browseBy": {
     "relatedCategories": "相关分类",

@@ -585,7 +585,8 @@
     "sans-serif": "Sans-Serif",
     "serif": "Serif",
     "monospace": "Monospace",
-    "script": "Script"
+    "script": "Script",
+    "display": "Display"
   },
   "browseBy": {
     "relatedCategories": "Categorias relacionadas",
