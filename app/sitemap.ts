@@ -14,7 +14,6 @@ import { locales } from "@/i18n/locales"
 import type { Brand } from "@/lib/types"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://loftlyy.com"
-const INDEXABLE_LISTING_THRESHOLD = 2
 
 type SitemapEntry = MetadataRoute.Sitemap[number]
 
@@ -91,10 +90,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const tag of getAllTags()) {
     const taggedBrands = getBrandsByTag(tag)
-    if (taggedBrands.length <= INDEXABLE_LISTING_THRESHOLD) {
-      continue
-    }
-
     entries.push(
       ...buildLocalizedEntries(`/tag/${tag}`, {
         changeFrequency: "weekly",
@@ -106,10 +101,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const color of getAllColorFamilies()) {
     const colorBrands = getBrandsByColorFamily(color)
-    if (colorBrands.length <= INDEXABLE_LISTING_THRESHOLD) {
-      continue
-    }
-
     entries.push(
       ...buildLocalizedEntries(`/color/${color}`, {
         changeFrequency: "weekly",
@@ -121,10 +112,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const style of getAllTypographyStyles()) {
     const styleBrands = getBrandsByTypographyStyle(style)
-    if (styleBrands.length <= INDEXABLE_LISTING_THRESHOLD) {
-      continue
-    }
-
     entries.push(
       ...buildLocalizedEntries(`/typography/${style}`, {
         changeFrequency: "weekly",
