@@ -118,7 +118,7 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
                 alt={brand.name}
                 width={32}
                 height={32}
-                className="size-full object-contain dark:invert"
+                className="size-full object-contain"
               />
             </Link>
           ))}
