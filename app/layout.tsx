@@ -29,7 +29,12 @@ export default function RootLayout({
       className={cn("font-sans", fontSans.variable, fontMono.variable)}
     >
       <body className="antialiased">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <ThemeHotkey />
           {children}
         </ThemeProvider>
