@@ -1,3 +1,4 @@
+import { AdvertiseSpots } from "@/components/advertise-dialog"
 import { BrandSidebar } from "@/components/brand-sidebar"
 import { MobileSidebarToggle } from "@/components/mobile-sidebar-toggle"
 import { getAllSidebarBrands, getColorExplorerEntries } from "@/data/brands"
@@ -27,6 +28,9 @@ export default function BrandsLayout({
           />
         </header>
         <main id="main-content" className="flex-1 overflow-y-auto">
+          <div className="mx-auto w-full max-w-4xl px-4 pt-6 sm:px-6">
+            <AdvertiseSpots />
+          </div>
           {children}
         </main>
       </div>
